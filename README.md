@@ -1,1 +1,426 @@
-# vehicle_sales_sql_powerBI_project
+# Vehicle Sales & Inventory Analysis
+
+<img width="1005" height="603" alt="dashboard" src="https://github.com/user-attachments/assets/17cb4437-0efc-498b-bca2-4c4f5a44cb0d" />
+
+
+## Objectives
+This project is a comprehensive SQL-based suite for managing, cleaning, and extracting business intelligence from a vehicle dealership database.
+
+## 📌 Project Overview
+
+**Project Title**: Vehicle Sales & Inventory Analysis
+
+**Database**: `vehicle_sales`
+
+The database consists of four interconnected tables:
+
+**`customers`**: Buyer details and transaction links.
+
+**`vehicle_info`**: Specifications (Vehicle id, Model, Make, Year,Body Type, Fuel Type, MSRP).
+
+**`vehicle_sold`**: Sales data (Sale id, Vehicle id, Sale Price, Days on Lot).
+
+**`inventory_details`**: Logistical data (Sale id, Region, Mileage).
+
+
+## 🛠️ Data Cleaning & Structural Integrity
+
+The following steps were performed to ensure the data is accurate and the database is relational.
+
+### 1. Handling Duplicates & Errors
+
+```sql
+-- Remove duplicates from customers table
+DELETE c1 FROM customers c1
+JOIN (SELECT sale_id FROM customers GROUP BY sale_id HAVING COUNT(*) > 1) c2 
+ON c1.sale_id = c2.sale_id;
+
+-- Standardize regions
+UPDATE inventory_details SET region = CASE
+    WHEN region = 'NORTH' THEN 'North'
+    WHEN region = 'south' THEN 'South'
+    WHEN region = 'EAST-Region' THEN 'East'
+END;
+
+-- Handle Null/Blank values
+UPDATE inventory_details SET region = COALESCE(region, 'Unknown');
+UPDATE inventory_details SET mileage = 0 WHERE mileage = '';
+
+-- Correct negative signs in days_on_lot
+UPDATE vehicle_sold SET days_on_lot = REPLACE(days_on_lot, '-', '') WHERE days_on_lot LIKE '%-%';
+```
+
+### 2. Type Casting & Schema Definition
+
+```sql
+-- Convert text columns to integers
+ALTER TABLE inventory_details MODIFY COLUMN mileage INT;
+ALTER TABLE vehicle_info MODIFY msrp INT;
+ALTER TABLE vehicle_sold MODIFY sale_price INT;
+
+-- Define Primary and Foreign Keys
+ALTER TABLE customers ADD PRIMARY KEY (sale_id);
+ALTER TABLE vehicle_info ADD PRIMARY KEY (vehicle_id);
+
+ALTER TABLE inventory_details ADD CONSTRAINT inventory_fk_customer FOREIGN KEY (sale_id) REFERENCES customers(sale_id);
+ALTER TABLE vehicle_sold ADD CONSTRAINT VehicleSold_fk_customers FOREIGN KEY (sale_id) REFERENCES customers(sale_id);
+ALTER TABLE vehicle_sold ADD CONSTRAINT vehicleSold_fk_vehicleInfo FOREIGN KEY (vehicle_id) REFERENCES vehicle_info(vehicle_id);
+```
+
+### 3. CRUD Operations
+
+**Create:** Established database schema constraints (Primary/Foreign Keys) to allow for safe insertion of new customer, vehicle, and sale records.
+
+**Read:** Performed extensive analytical queries across multiple joined tables to retrieve sales performance, profit margins, and inventory status.
+
+**Update:** Standardized and corrected data across the entire database, including updating placeholder prices, fixing regional naming conventions, and cleaning mileage/fuel type values.
+
+**Delete:** Cleaned up the database by removing duplicate information and fixing broken links.
+
+## Section 1: Basic Analysis
+
+**Task 1. Update placeholder sale prices (0-1 range):**
+
+```sql
+UPDATE vehicle_sold 
+SET 
+    sale_price = 58000
+WHERE
+    sale_price BETWEEN 0 AND 1;
+         
+```
+**Task 2: Total revenue (in Millions):**
+
+```sql
+SELECT 
+    CONCAT(ROUND(SUM(sale_price) / 1000000, 2), 'M') AS total_revenue
+FROM
+    vehicle_sold;
+```
+
+**Task 3: Model with highest sales volume:**
+  
+```sql
+SELECT 
+    model, SUM(sale_price) AS highest_sales_volume
+FROM
+    vehicle_info vi
+        INNER JOIN
+    vehicle_sold vs ON vs.vehicle_id = vi.vehicle_id
+GROUP BY 1
+ORDER BY highest_sales_volume DESC
+LIMIT 1;
+```
+
+**Task 4: Average sale price of a vehicle:**
+```sql
+SELECT 
+    ROUND(AVG(sale_price), 2) AS `avg _sale_price`
+FROM
+    vehicle_sold;
+```
+
+**Task 5: Vehicle sales count in 'NORTH' region:**
+
+```sql
+SELECT 
+    COUNT(vs.sale_id) AS vehicle_sold
+FROM
+    vehicle_sold vs
+        INNER JOIN
+    inventory_details id ON id.sale_id = vs.sale_id
+WHERE
+    region = 'North';
+```
+
+- **Task 6: Most common body type in inventory:**
+
+```sql
+SELECT 
+    body_type, COUNT(body_type) AS most_common_body_type
+FROM
+    vehicle_info
+GROUP BY body_type
+ORDER BY 2 DESC
+LIMIT 1;
+```
+
+
+## Section 2: Intermediate Analysis
+
+Task 7. **Region with highest average days on lot:**
+
+```sql
+SELECT 
+    region
+FROM
+    inventory_details id
+        INNER JOIN
+    vehicle_sold vs ON vs.sale_id = id.sale_id
+GROUP BY 1
+HAVING AVG(days_on_lot) = (SELECT 
+        MAX(avg_days_on_lot)
+    FROM
+        (SELECT 
+            region, AVG(days_on_lot) AS avg_days_on_lot
+        FROM
+            vehicle_sold vs
+        INNER JOIN inventory_details id ON id.sale_id = vs.sale_id
+        GROUP BY region) AS max_days);
+```
+
+Task 8: **Average mileage in the 'WEST' region:**
+
+```sql
+ SELECT 
+    ROUND(AVG(mileage), 2) AS avg_mileage
+FROM
+    inventory_details
+WHERE
+    region = 'west';
+```
+
+9. **Top 10 customers by total purchase value:**
+```sql
+SELECT 
+    customer_name, SUM(sale_price) AS total_purchase
+FROM
+    customers c
+        INNER JOIN
+    vehicle_sold vs ON vs.sale_id = c.sale_id
+GROUP BY 1
+ORDER BY 2 DESC
+LIMIT 10;
+
+```
+
+10. **Average Discount/Premium for Electric Vehicles:**
+
+```sql
+ SELECT
+    ROUND(AVG(sale_price - msrp), 2) avg_price_difference
+FROM
+    vehicle_info vi
+        INNER JOIN
+    vehicle_sold vs ON vi.vehicle_id = vs.vehicle_id
+WHERE
+    fuel_type = 'Electric';
+```
+
+Task 11. **Fastest selling model year (Lowest avg days on lot):**
+```sql
+SELECT 
+    `year`, AVG(days_on_lot) avg_days
+FROM
+    vehicle_sold vs
+        INNER JOIN
+    vehicle_info vi ON vi.vehicle_id = vs.vehicle_id
+GROUP BY 1
+ORDER BY 2 ASC;
+
+```
+
+Task 12: List models sold for more than their MSRP:**
+```sql
+SELECT 
+    model, msrp, sale_price
+FROM
+    vehicle_info vi
+        INNER JOIN
+    vehicle_sold vs ON vs.vehicle_id = vi.vehicle_id
+WHERE
+    sale_price > msrp
+ORDER BY sale_price DESC;  
+
+```
+
+**Task 13: Revenue contribution by fuel type:**  
+
+```sql
+SELECT 
+    fuel_type, SUM(sale_price) total_revenue
+FROM
+    vehicle_sold vs
+        INNER JOIN
+    vehicle_info vi ON vi.vehicle_id = vs.vehicle_id
+GROUP BY 1
+ORDER BY 2 DESC;
+
+
+UPDATE vehicle_info 
+SET 
+    fuel_type = 'Gasoline'
+WHERE
+    model = 'GLC' AND `year` = 2022
+        AND body_type = 'SUV';
+
+UPDATE vehicle_info 
+SET 
+    fuel_type = 'Gasoline'
+WHERE
+    model = 'equinox' AND `year` = 2022
+        AND body_type = 'SUV';
+
+
+```
+
+## Section 3: Advanced Business Intelligence
+
+**Task 14: Cumulative revenue (Running Total):**  
+
+```sql
+select sale_id , sale_price,
+     sum(sale_price) over(order by sale_id) as running_total 
+from
+     vehicle_sold;
+```
+
+**Task 15: Combination of model and body type with highest profit margin:**  
+
+```sql
+
+SELECT 
+    model,
+    body_type,
+    ROUND(AVG((sale_price - msrp) / msrp) * 100, 2) AS avg_profit_margin
+FROM
+    vehicle_info vi
+        INNER JOIN
+    vehicle_sold vs ON vs.vehicle_id = vi.vehicle_id
+GROUP BY 1 , 2
+ORDER BY avg_profit_margin DESC
+LIMIT 1;
+
+
+```
+
+
+**Task 16: Overall Total Profit:**  
+
+```sql
+SELECT 
+    (total.total_rev - cost.total_cost) AS profit
+FROM
+    (SELECT 
+        SUM(sale_price) total_rev
+    FROM
+        vehicle_sold) AS total,
+    (SELECT 
+        SUM(msrp) total_cost
+    FROM
+        vehicle_info) AS cost;
+
+
+```
+
+**Task 17: Gross Profit Margin percentage:**  
+
+```sql
+SELECT 
+    (totals.total_rev - costs.total_cost) / totals.total_rev AS gross_profit_margin
+FROM
+    (SELECT 
+        SUM(sale_price) AS total_rev
+    FROM
+        `vehicle_sold`) AS totals,
+    (SELECT 
+        SUM(msrp) AS total_cost
+    FROM
+        `vehicle_info`) AS costs;
+
+```
+
+
+**Task 18: High Mileage (>50k) vs Low Mileage (<50k) Lot Days:**  
+
+```sql
+SELECT 
+    CASE
+        WHEN mileage > 50000 THEN 'High Mileage'
+        ELSE 'Low Mileage'
+    END 'mileage category',
+    ROUND(AVG(days_on_lot), 2) avg_days_on_lot
+FROM
+    vehicle_sold vs
+        INNER JOIN
+    inventory_details id ON id.sale_id = vs.sale_id
+GROUP BY 1;
+
+
+```
+
+**Task 19: Identify Stale Inventory (>100 days):** Models that average more than 100 days on the lot
+
+```sql
+SELECT 
+    model, ROUND(AVG(days_on_lot), 2) AS avg_lot_days
+FROM
+    vehicle_info vi
+        INNER JOIN
+    vehicle_sold vs ON vs.vehicle_id = vi.vehicle_id
+GROUP BY 1
+HAVING AVG(days_on_lot) > 100
+ORDER BY avg_lot_days DESC;
+
+
+```
+
+**Task 20: Sales Efficiency by Region (Revenue / Avg Days on Lot):**  
+
+```sql
+SELECT 
+    region,
+    ROUND((SUM(sale_price)) / (AVG(days_on_lot)),
+            2) AS sale_efficiency
+FROM
+    inventory_details id
+        INNER JOIN
+    vehicle_sold vs ON vs.sale_id = id.sale_id
+GROUP BY 1
+ORDER BY sale_efficiency DESC;
+
+
+```
+
+**Task 21: What percentage of total sales come from Hybrid/Electric vehicles vs Gasoline?**   
+
+```sql
+SELECT 
+    fuel_type,
+    ROUND((SUM(sale_price) / (SELECT SUM(sale_price) FROM vehicle_sold)) * 100,
+            2) AS `total_sale_percentage`
+FROM
+    vehicle_info AS vi
+        INNER JOIN
+    vehicle_sold vs ON vs.vehicle_id = vi.vehicle_id
+WHERE 
+    fuel_type IN ('hybrid', 'electric', 'gasoline')
+GROUP BY fuel_type
+ORDER BY `total_sale_percentage` DESC;
+
+
+```
+
+**Task 22: Identify potential data entry errors where the sale_price is less than 50% of the MSRP.**   
+
+```sql
+SELECT 
+    sale_price, msrp
+FROM
+    vehicle_sold vs
+        INNER JOIN
+    vehicle_info vi ON vi.vehicle_id = vs.vehicle_id
+WHERE
+    sale_price < (msrp * 50) / 100;
+
+
+```
+
+
+## Conclusion
+
+This project showcases a complete Library Management System built with SQL, designed to automate everything from book tracking to member activity. By leveraging complex joins, aggregate functions, and automated reporting tables, the system transforms raw data into actionable insights—such as identifying overdue books and calculating branch revenue—demonstrating a professional-grade approach to database design and lifecycle management.
+
+- **Instagram**: [Follow me on instagram for daily tips](https://www.instagram.com/bca_wale022/)
+- **LinkedIn**: [Connect with me on linkedIn](https://www.linkedin.com/in/nasir-hussain022)
+- **Contact**: [Send me an email](mailto:nasirhussainnk172@gmail.com)
