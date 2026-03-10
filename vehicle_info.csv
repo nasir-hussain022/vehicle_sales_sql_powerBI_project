@@ -1,0 +1,1180 @@
+vehicle_id,make,model,year,body_type,fuel_type,msrp
+V0001,Toyota,Corolla,2022,sedan,Gasoline,24000.0
+V0002,Ford,F-150,2023,TRUCK,Diesel,45000.0
+V0003,,Civic,2021,hatchback,Gasoline,22000.0
+V0004,Tesla,Model 3,2024,SEDAN,Electric,42000.0
+V0005,BMW,X5,2022,SUV,Diesel,62000.0
+V0006,Honda,Accord,2023,sedan,Hybrid,28000.0
+V0007,Nissan,Altima,2020,SEDAN,Gasoline,21000.0
+V0008,Chevrolet,Silverado,2022,truck,Gasoline,48000.0
+V0009,Audi,A4,2021,Sedan,Gasoline,39000.0
+V0010,Hyundai,Elantra,2023,hatchback,Hybrid,23000.0
+V0011,,Mustang,2024,Coupe,Gasoline,40000.0
+V0012,Mercedes,C-Class,2022,sedan,Gasoline,45000.0
+V0013,Toyota,RAV4,2023,SUV,Hybrid,32000.0
+V0014,Ford,Explorer,2021,SUV,Gasoline,36000.0
+V0015,Toy@ta,Camry,2022,sedan,Gasoline,26500.0
+V0016,F0rd,F-150,2023,TRUCK,Diesel,48000.0
+V0017,,Accord,2021,hatchback,Hybrid,29000.0
+V0018,Tesla,Model Y,2024,SUV,Electric,53000.0
+V0019,BMW,X3,2022,suv,Gasoline,46000.0
+V0020,Honda,CR-V,2023,SUV,Hybrid,34000.0
+V0021,Nissan,Rogue,2020,SUV,Gasoline,27000.0
+V0022,Chevrolet,Tahoe,2022,suv,Gasoline,58000.0
+V0023,Audi,Q5,2021,SUV,Gasoline,44000.0
+V0024,Hyundai,Tucson,2023,SUV,Hybrid,31000.0
+V0025,,Civic,2024,SEDAN,Gasoline,25000.0
+V0026,Mercedes,GLC,2022,SUV,Gasoline,49000.0
+V0027,Toyota,Highlander,2023,SUV,Hybrid,42000.0
+V0028,Ford,Edge,2021,SUV,Gasoline,33000.0
+V0029,Tesla,Model 3,2024,sedan,Electric,40000.0
+V0030,BMW,5 Series,2022,SEDAN,Gasoline,55000.0
+V0031,Honda,Pilot,2023,SUV,Gasoline,39000.0
+V0032,Nissan,Sentra,2020,sedan,Gasoline,19500.0
+V0033,Chevrolet,Equinox,2022,SUV,Gasoline,28500.0
+V0034,Audi,A6,2021,sedan,Gasoline,56000.0
+V0035,Hyundai,Santa Fe,2023,SUV,Hybrid,36000.0
+V0036,,Explorer,2024,SUV,Gasoline,38000.0
+V0037,Mercedes,E-Class,2022,sedan,Gasoline,58000.0
+V0038,Toyota,Sienna,2023,minivan,Hybrid,37000.0
+V0039,Ford,Mustang,2021,coupe,Gasoline,31000.0
+V0040,Honda,CR-V,2023,SUV,,34000.0
+V0041,Mercedes,GLC,2022,SUV,,49000.0
+V0042,Chevrolet,Equinox,2022,SUV,,28500.0
+V0043,Tesla,Model Y,2024,S.U.V,Electric,
+V0044,Honda,CR-V,2023,Sport Utility,Hybrid,34000.0
+V0045,Ford,F-150,22,TRUCK,Diesel,48000.0
+V0046,F0rd,F-150,2018,TRUCK,Diesel,48000.0
+V0047,Ford,F-150,2023,TRUCK,Diesel,48000.0
+V0048,Kia,Sportage,2023,SUV,Gasoline,32000.0
+V0049,Subaru,Outback,2022,Wagon,Gasoline,35000.0
+V0050,Mazda,CX-5,2021,SUV,Gasoline,29000.0
+V0051,Jeep,Wrangler,2024,SUV,Hybrid,55000.0
+V0052,,Tucson,2023,suv,Hybrid,31000.0
+V0053,Lexus,RX 350,2022,SUV,Gasoline,52000.0
+V0054,Volkswagen,Tiguan,2021,SUV,Gasoline,28000.0
+V0055,Toy@ta,Highlander,2023,SUV,Hybrid,44000.0
+V0056,Ford,Mustang,2024,coupe,Gasoline,42000.0
+V0057,Tesla,Model 3,2024,sedan,Electric,39000.0
+V0058,BMW,3 Series,2022,SEDAN,Gasoline,45000.0
+V0059,Honda,Civic,2020,hatchback,Gasoline,21000.0
+V0060,,F-150,2023,TRUCK,Diesel,52000.0
+V0061,Chevrolet,Equinox,2022,SUV,Gasoline,29000.0
+V0062,Audi,Q7,2021,SUV,Gasoline,62000.0
+V0063,Mercedes,GLE,2023,SUV,Gasoline,65000.0
+V0064,Hyundai,Sonata,2022,sedan,Hybrid,28000.0
+V0065,Nissan,Rogue,2024,SUV,Gasoline,33000.0
+V0066,F0rd,Explorer,2021,SUV,Gasoline,38000.0
+V0067,Toyota,Tacoma,2022,truck,Gasoline,36000.0
+V0068,Kia,Telluride,2023,SUV,Gasoline,48000.0
+V0069,Subaru,Forester,2021,SUV,Gasoline,30000.0
+V0070,Mazda,3,2022,sedan,Gasoline,24000.0
+V0071,Jeep,Grand Cherokee,2023,SUV,Gasoline,45000.0
+V0072,,Model Y,2024,S.U.V,Electric,52000.0
+V0073,Lexus,ES 350,2021,sedan,Gasoline,41000.0
+V0074,Volkswagen,Jetta,2023,sedan,Gasoline,23000.0
+V0075,Honda,CR-V,2022,SUV,Hybrid,34000.0
+V0076,Chevrolet,Silverado,2023,truck,Diesel,55000.0
+V0077,Audi,A3,2022,sedan,Gasoline,35000.0
+V0078,Mercedes,A-Class,2021,sedan,Gasoline,34000.0
+V0079,Hyundai,Ioniq 5,2024,SUV,Electric,48000.0
+V0080,Toyota,Prius,2023,hatchback,Hybrid,29000.0
+V0081,Ford,F-250,2022,TRUCK,Diesel,62000.0
+V0082,Nissan,Pathfinder,2021,SUV,Gasoline,36000.0
+V0083,BMW,X1,2023,SUV,Gasoline,39000.0
+V0084,Tesla,Model S,2024,SEDAN,Electric,85000.0
+V0085,Toy@ta,Camry,2021,sedan,Gasoline,27000.0
+V0086,Kia,Seltos,2022,SUV,Gasoline,25000.0
+V0087,Subaru,Crosstrek,2023,SUV,Hybrid,31000.0
+V0088,Honda,Odyssey,2022,minivan,Gasoline,38000.0
+V0089,,Malibu,2021,sedan,Gasoline,24000.0
+V0090,Audi,Q3,2023,SUV,Gasoline,37000.0
+V0091,Mercedes,CLA,2022,coupe,Gasoline,39000.0
+V0092,Hyundai,Kona,2024,SUV,Electric,35000.0
+V0093,Nissan,Sentra,2023,sedan,Gasoline,22000.0
+V0094,Ford,Ranger,2022,truck,Gasoline,33000.0
+V0095,Chevrolet,Colorado,2021,truck,Gasoline,31000.0
+V0096,BMW,4 Series,2024,coupe,Gasoline,49000.0
+V0097,Tesla,Model X,2024,SUV,Electric,95000.0
+V0098,Toy@ta,Corolla,22,sedan,Gasoline,23000.0
+V0099,Honda,Pilot,2021,SUV,Gasoline,41000.0
+V0100,Audi,A5,2022,coupe,Gasoline,46000.0
+V0101,Mercedes,GLA,2023,SUV,Gasoline,38000.0
+V0102,Toyota,Supra,2024,coupe,Gasoline,56000.0
+V0103,Ford,Bronco,2023,SUV,Gasoline,48000.0
+V0104,,Accord,2022,sedan,Hybrid,32000.0
+V0105,Tesla,Cybertruck,2024,TRUCK,Electric,80000.0
+V0106,BMW,M3,2023,sedan,Gasoline,75000.0
+V0107,Honda,Ridgeline,2021,truck,Gasoline,38000.0
+V0108,Nissan,Z,2024,coupe,Gasoline,42000.0
+V0109,Chevrolet,Blazer,2022,SUV,Gasoline,35000.0
+V0110,Audi,e-tron,2023,SUV,Electric,72000.0
+V0111,Hyundai,Palisade,2023,SUV,Gasoline,45000.0
+V0112,,Mustang Mach-E,2023,SUV,Electric,55000.0
+V0113,Mercedes,S-Class,2022,sedan,Gasoline,110000.0
+V0114,Toy@ta,Venza,2021,SUV,Hybrid,34000.0
+V0115,F0rd,Expedition,2022,SUV,Gasoline,65000.0
+V0116,Kia,EV6,2024,SUV,Electric,50000.0
+V0117,Subaru,BRZ,2023,coupe,Gasoline,30000.0
+V0118,Mazda,CX-90,2024,SUV,Hybrid,48000.0
+V0119,Jeep,Gladiator,2022,truck,Gasoline,45000.0
+V0120,Lexus,GX 460,2021,SUV,Gasoline,58000.0
+V0121,Volkswagen,ID.4,2023,SUV,Electric,42000.0
+V0122,Honda,Passport,2022,SUV,Gasoline,40000.0
+V0123,Chevrolet,Camaro,2021,coupe,Gasoline,35000.0
+V0124,Audi,RS5,2024,coupe,Gasoline,78000.0
+V0125,Mercedes,GLB,2023,SUV,Gasoline,40000.0
+V0126,Hyundai,Ioniq 6,2024,sedan,Electric,45000.0
+V0127,Nissan,Leaf,2022,hatchback,Electric,28000.0
+V0128,Toyota,4Runner,2021,SUV,Gasoline,42000.0
+V0129,Ford,Maverick,2023,truck,Hybrid,25000.0
+V0130,BMW,X7,2022,SUV,Gasoline,82000.0
+V0131,Tesla,Model 3,24,sedan,Electric,40000.0
+V0132,Toy@ta,Camry,2023,sedan,Hybrid,30000.0
+V0133,F0rd,F-150,2023,TRUCK,Diesel,55000.0
+V0134,Honda,Civic,2022,sedan,Gasoline,24000.0
+V0135,Chevrolet,Traverse,2021,SUV,Gasoline,38000.0
+V0136,Audi,A8,2022,sedan,Gasoline,88000.0
+V0137,Mercedes,GLS,2023,SUV,Gasoline,85000.0
+V0138,Hyundai,Venice,2023,SUV,Gasoline,21000.0
+V0139,Nissan,Armada,2022,SUV,Gasoline,52000.0
+V0140,Toyota,Avalon,2021,sedan,Hybrid,39000.0
+V0141,Ford,F-350,2024,TRUCK,Diesel,72000.0
+V0142,BMW,i4,2024,sedan,Electric,58000.0
+V0143,Tesla,Model Y,2023,SUV,Electric,52000.0
+V0144,Honda,HR-V,2023,SUV,Gasoline,26000.0
+V0145,Chevrolet,Suburban,2022,SUV,Gasoline,62000.0
+V0146,Audi,Q8,2023,SUV,Gasoline,75000.0
+V0147,Mercedes,C-Class,2024,sedan,Gasoline,48000.0
+V0148,Hyundai,Santa Cruz,2022,truck,Gasoline,28000.0
+V0149,Nissan,Frontier,2023,truck,Gasoline,34000.0
+V0150,Toyota,Corolla Cross,2023,SUV,Hybrid,28000.0
+V0151,Ford,EcoSport,2021,SUV,Gasoline,22000.0
+V0152,Toy@ta,Tacoma,2022,truck,Gasoline,35000.0
+V0153,F0rd,Explorer,2021,SUV,Gasoline,40000.0
+V0154,BMW,8 Series,2024,coupe,Gasoline,90000.0
+V0155,Tesla,Model S,2022,sedan,Electric,95000.0
+V0156,Honda,Insight,2021,sedan,Hybrid,27000.0
+V0157,Toyota,Camry,2022,sedan,Gasoline,26500.0
+V0158,Mazda,MX-5,2023,convertible,Gasoline,28000.0
+V0159,Subaru,Impreza,2022,hatchback,Gasoline,23000.0
+V0160,Kia,Forte,2023,sedan,Gasoline,21000.0
+V0161,Jeep,Compass,2021,SUV,Gasoline,26000.0
+V0162,Lexus,IS 350,2022,sedan,Gasoline,44000.0
+V0163,Volkswagen,Passat,2021,sedan,Gasoline,27000.0
+V0164,Toy@ta,Prius,2023,hatchback,Hybrid,29000.0
+V0165,F0rd,Ranger,2022,truck,Gasoline,34000.0
+V0166,Honda,Fit,2020,hatchback,Gasoline,18000.0
+V0167,Chevrolet,Spark,2021,hatchback,Gasoline,15000.0
+V0168,Audi,TT,2023,coupe,Gasoline,52000.0
+V0169,Mercedes,GLC Coupe,2022,SUV,Gasoline,55000.0
+V0170,Hyundai,Veloster,2021,hatchback,Gasoline,26000.0
+V0171,Nissan,370Z,2020,coupe,Gasoline,33000.0
+V0172,BMW,Z4,2024,convertible,Gasoline,54000.0
+V0173,Tesla,Roadster,2024,coupe,Electric,200000.0
+V0174,Toyota,Land Cruiser,2021,SUV,Gasoline,85000.0
+V0175,Ford,GT,2022,coupe,Gasoline,500000.0
+V0176,Honda,Clarity,2021,sedan,Hybrid,35000.0
+V0177,Chevrolet,Volt,2020,hatchback,Hybrid,33000.0
+V0178,Audi,R8,2023,coupe,Gasoline,160000.0
+V0179,Mercedes,G-Wagon,2023,SUV,Gasoline,150000.0
+V0180,Hyundai,Genesis,2022,sedan,Gasoline,48000.0
+V0181,Nissan,GT-R,2024,coupe,Gasoline,120000.0
+V0182,Toyota,Mirai,2023,sedan,Hydrogen,50000.0
+V0183,Ford,Flex,2020,SUV,Gasoline,32000.0
+V0184,BMW,i3,2021,hatchback,Electric,45000.0
+V0185,Honda,Civic Type R,2024,hatchback,Gasoline,45000.0
+V0186,Chevrolet,Silverado EV,2024,truck,Electric,75000.0
+V0187,Audi,SQ5,2022,SUV,Gasoline,58000.0
+V0188,Mercedes,EQS,2024,sedan,Electric,105000.0
+V0189,Hyundai,Nexo,2023,SUV,Hydrogen,60000.0
+V0190,Nissan,Ariya,2024,SUV,Electric,45000.0
+V0191,Toyota,Crown,2024,sedan,Hybrid,48000.0
+V0192,Ford,Lightning,2023,truck,Electric,65000.0
+V0193,BMW,XM,2024,SUV,Hybrid,160000.0
+V0194,Tesla,Semi,2024,TRUCK,Electric,150000.0
+V0195,Honda,Prologue,2024,SUV,Electric,48000.0
+V0196,Chevrolet,Blazer EV,2024,SUV,Electric,52000.0
+V0197,Audi,Q4 e-tron,2023,SUV,Electric,55000.0
+V0198,Mercedes,EQB,2023,SUV,Electric,53000.0
+V0199,Hyundai,Ioniq 7,2024,SUV,Electric,65000.0
+V0200,Nissan,Z Nismo,2024,coupe,Gasoline,65000.0
+V0201,Toyota,GR86,2023,coupe,Gasoline,30000.0
+V0202,Ford,Dark Horse,2024,coupe,Gasoline,60000.0
+V0203,BMW,M2,2024,coupe,Gasoline,65000.0
+V0204,Tesla,Model Y Performance,2024,SUV,Electric,55000.0
+V0205,Honda,CR-V FCEV,2024,SUV,Hydrogen,50000.0
+V0206,Chevrolet,Corvette E-Ray,2024,coupe,Hybrid,105000.0
+V0207,Kia,Soul,2021,hatchback,Gasoline,19000.0
+V0208,Subaru,Ascent,2023,SUV,Gasoline,42000.0
+V0209,Mazda,MX-30,2022,SUV,Electric,34000.0
+V0210,Jeep,Renegade,2021,SUV,Gasoline,24000.0
+V0211,Lexus,GX,2023,SUV,Gasoline,59000.0
+V0212,Volkswagen,Atlas,2022,SUV,Gasoline,41000.0
+V0213,Toy@ta,Corolla,22,sedan,Gasoline,22000.0
+V0214,F0rd,F-250,2023,TRUCK,Diesel,65000.0
+V0215,Honda,Passport,2021,SUV,Gasoline,39000.0
+V0216,BMW,X7,2022,SUV,Gasoline,85000.0
+V0217,Audi,Q8,2023,SUV,Gasoline,76000.0
+V0218,Mercedes,S-Class,2022,sedan,Gasoline,115000.0
+V0219,Hyundai,Kona,2024,SUV,Electric,36000.0
+V0220,Nissan,Frontier,2023,truck,Gasoline,35000.0
+V0221,Chevrolet,Tahoe,2022,SUV,Gasoline,60000.0
+V0222,Kia,Niro,2023,SUV,Hybrid,28000.0
+V0223,Subaru,Impreza,2021,hatchback,Gasoline,23000.0
+V0224,Mazda,CX-9,2022,SUV,Gasoline,38000.0
+V0225,Jeep,Cherokee,2022,SUV,Gasoline,34000.0
+V0226,Lexus,NX,2023,SUV,Hybrid,45000.0
+V0227,Volkswagen,Golf,2021,hatchback,Gasoline,25000.0
+V0228,Toy@ta,RAV4,2023,SUV,Hybrid,34000.0
+V0229,F0rd,Edge,2022,SUV,Gasoline,35000.0
+V0230,Honda,Insight,2021,sedan,Hybrid,28000.0
+V0231,BMW,X4,2022,SUV,Gasoline,52000.0
+V0232,Audi,A5,2022,coupe,Gasoline,47000.0
+V0233,Mercedes,GLA,2023,SUV,Gasoline,39000.0
+V0234,Hyundai,Santa Cruz,2023,truck,Gasoline,29000.0
+V0235,Nissan,Titan,2022,truck,Gasoline,48000.0
+V0236,Chevrolet,Traverse,2021,SUV,Gasoline,39000.0
+V0237,Kia,EV6,2024,SUV,Electric,52000.0
+V0238,Subaru,Legacy,2022,sedan,Gasoline,26000.0
+V0239,Mazda,6,2021,sedan,Gasoline,28000.0
+V0240,Jeep,Compass,2023,SUV,Gasoline,27000.0
+V0241,Lexus,LX,2022,SUV,Gasoline,90000.0
+V0242,Volkswagen,Arteon,2022,sedan,Gasoline,42000.0
+V0243,Toy@ta,Avalon,2021,sedan,Hybrid,40000.0
+V0244,F0rd,Expedition,2022,SUV,Gasoline,68000.0
+V0245,Honda,Odyssey,2023,minivan,Gasoline,40000.0
+V0246,Tesla,Model S,2024,sedan,Electric,88000.0
+V0247,BMW,M4,2023,coupe,Gasoline,78000.0
+V0248,Audi,RS6,2024,wagon,Gasoline,125000.0
+V0249,Mercedes,GT,2023,coupe,Gasoline,95000.0
+V0250,Hyundai,Ioniq 6,2024,sedan,Electric,46000.0
+V0251,Nissan,Ariya,2024,SUV,Electric,48000.0
+V0252,Chevrolet,Corvette,2023,coupe,Gasoline,75000.0
+V0253,Kia,Telluride,2024,SUV,Gasoline,50000.0
+V0254,Subaru,Solterra,2024,SUV,Electric,46000.0
+V0255,Toyota,GR86,2023,coupe,Gasoline,31000.0
+V0256,Ford,Lightning,2023,truck,Electric,70000.0
+V0257,Honda,Civic Type R,2024,hatchback,Gasoline,46000.0
+V0258,Tesla,Cybertruck,2024,truck,Electric,85000.0
+V0259,BMW,XM,2024,SUV,Hybrid,165000.0
+V0260,Audi,Q4,2023,SUV,Electric,56000.0
+V0261,Mercedes,EQS,2024,sedan,Electric,110000.0
+V0262,Hyundai,Nexo,2023,SUV,Hydrogen,62000.0
+V0263,Nissan,Z Nismo,2024,coupe,Gasoline,67000.0
+V0264,Chevrolet,Silverado EV,2024,truck,Electric,80000.0
+V0265,Toyota,Crown,2024,sedan,Hybrid,50000.0
+V0266,Ford,Maverick,2023,truck,Hybrid,26000.0
+V0267,Honda,Prologue,2024,SUV,Electric,50000.0
+V0268,Tesla,Model 3,24,sedan,Electric,41000.0
+V0269,BMW,i4,2024,sedan,Electric,60000.0
+V0270,Audi,SQ5,2022,SUV,Gasoline,60000.0
+V0271,Mercedes,GLC Coupe,2023,SUV,Gasoline,58000.0
+V0272,Hyundai,Venue,2023,SUV,Gasoline,22000.0
+V0273,Nissan,Leaf,2022,hatchback,Electric,29000.0
+V0274,Chevrolet,Blazer EV,2024,SUV,Electric,55000.0
+V0275,Toyota,4Runner,2022,SUV,Gasoline,45000.0
+V0276,Ford,Bronco,2023,SUV,Gasoline,50000.0
+V0277,Honda,CR-V,2024,SUV,Hybrid,36000.0
+V0278,Tesla,Model X,2024,SUV,Electric,98000.0
+V0279,BMW,X5,2023,SUV,Diesel,68000.0
+V0280,Audi,A6,2022,sedan,Gasoline,58000.0
+V0281,Mercedes,EQB,2023,SUV,Electric,55000.0
+V0282,Hyundai,Tucson,2024,SUV,Hybrid,33000.0
+V0283,Nissan,Murano,2021,SUV,Gasoline,38000.0
+V0284,Chevrolet,Malibu,2022,sedan,Gasoline,26000.0
+V0285,Toyota,Sienna,2024,minivan,Hybrid,40000.0
+V0286,Ford,Mustang,2024,coupe,Gasoline,45000.0
+V0287,Honda,Pilot,2024,SUV,Gasoline,43000.0
+V0288,Tesla,Semi,2024,truck,Electric,160000.0
+V0289,BMW,iX,2024,SUV,Electric,88000.0
+V0290,Audi,Q7,2023,SUV,Gasoline,65000.0
+V0291,Mercedes,G-Wagon,2023,SUV,Gasoline,160000.0
+V0292,Hyundai,Ioniq 7,2024,SUV,Electric,68000.0
+V0293,Nissan,Sentra,2024,sedan,Gasoline,23000.0
+V0294,Chevrolet,Colorado,2023,truck,Gasoline,35000.0
+V0295,Toyota,Highlander,2024,SUV,Hybrid,45000.0
+V0296,Ford,F-150,22,TRUCK,Gasoline,50000.0
+V0297,Honda,Accord,2024,sedan,Hybrid,35000.0
+V0298,BMW,8 Series,2023,coupe,Gasoline,92000.0
+V0299,Audi,TT,2021,coupe,Gasoline,50000.0
+V0300,Mercedes,CLA,2023,coupe,Gasoline,42000.0
+V0301,Hyundai,Genesis,2023,sedan,Gasoline,50000.0
+V0302,Nissan,GT-R,2023,coupe,Gasoline,115000.0
+V0303,Chevrolet,Camaro,2024,coupe,Gasoline,40000.0
+V0304,Toyota,Prius,2024,hatchback,Hybrid,32000.0
+V0305,Ford,Explorer,2024,SUV,Gasoline,42000.0
+V0306,Honda,Fit,2021,hatchback,Gasoline,20000.0
+V0307,BMW,X1,2024,SUV,Gasoline,42000.0
+V0308,Audi,Q3,2022,SUV,Gasoline,38000.0
+V0309,Mercedes,GLA,2024,SUV,Gasoline,41000.0
+V0310,Hyundai,Sonata,2024,sedan,Hybrid,31000.0
+V0311,Nissan,Titan,2023,truck,Gasoline,52000.0
+V0312,Chevrolet,Equinox,2024,SUV,Gasoline,31000.0
+V0313,Toyota,Corolla,2023,sedan,Gasoline,24500.0
+V0314,Ford,F-150,2024,truck,Electric,55000.0
+V0315,,Civic,2022,hatchback,Hybrid,28000.0
+V0316,Tesla,Model 3,2024,sedan,Electric,41000.0
+V0317,BMW,X5,2021,SUV,Diesel,65000.0
+V0318,Honda,CR-V,2023,suv,Hybrid,34500.0
+V0319,Nissan,Altima,2020,sedan,Gasoline,22000.0
+V0320,Chevrolet,Silverado,2023,TRUCK,Gasoline,49000.0
+V0321,Audi,A4,2022,Sedan,Gasoline,42000.0
+V0322,Hyundai,Tucson,2024,SUV,Hybrid,32000.0
+V0323,,Mustang,2023,coupe,Gasoline,38000.0
+V0324,Mercedes,C-Class,2021,sedan,Gasoline,46000.0
+V0325,Toyota,RAV4,2024,SUV,Hybrid,35000.0
+V0326,Ford,Explorer,2022,suv,Gasoline,39000.0
+V0327,Subaru,Outback,2021,wagon,Gasoline,33000.0
+V0328,Mazda,CX-5,2022,SUV,Gasoline,29500.0
+V0329,Tesla,Model Y,2024,SUV,Electric,52000.0
+V0330,Jeep,Wrangler,2023,suv,Hybrid,56000.0
+V0331,,Accord,2021,sedan,Hybrid,31000.0
+V0332,Lexus,RX 350,2022,SUV,Gasoline,53000.0
+V0333,Volkswagen,Tiguan,2023,suv,Gasoline,29000.0
+V0334,Chevrolet,Tahoe,2024,SUV,Gasoline,62000.0
+V0335,Audi,Q5,2022,SUV,Gasoline,45000.0
+V0336,Hyundai,Elantra,2023,sedan,Gasoline,23500.0
+V0337,Nissan,Rogue,2021,SUV,Gasoline,28000.0
+V0338,Toyota,Camry,2024,sedan,Hybrid,30000.0
+V0339,BMW,3 Series,2022,SEDAN,Gasoline,44000.0
+V0340,Honda,Civic,2020,hatchback,Gasoline,21500.0
+V0341,Ford,F-250,2023,TRUCK,Diesel,68000.0
+V0342,Tesla,Model S,2024,sedan,Electric,89000.0
+V0343,Mercedes,GLC,2022,SUV,Gasoline,51000.0
+V0344,,Highlander,2023,SUV,Hybrid,43000.0
+V0345,Kia,Sportage,2021,suv,Gasoline,27000.0
+V0346,Subaru,Forester,2022,SUV,Gasoline,31000.0
+V0347,Mazda,3,2023,sedan,Gasoline,25000.0
+V0348,Jeep,Grand Cherokee,2024,SUV,Gasoline,47000.0
+V0349,Chevrolet,Equinox,2022,SUV,Gasoline,29500.0
+V0350,Audi,Q7,2021,SUV,Gasoline,61000.0
+V0351,Hyundai,Ioniq 5,2024,SUV,Electric,49000.0
+V0352,Nissan,Pathfinder,2023,suv,Gasoline,37000.0
+V0353,Toyota,Tacoma,2022,truck,Gasoline,38000.0
+V0354,BMW,X3,2023,SUV,Gasoline,47000.0
+V0355,Honda,Pilot,2024,SUV,Gasoline,42000.0
+V0356,,Explorer,2021,SUV,Gasoline,36000.0
+V0357,Tesla,Model X,2024,SUV,Electric,96000.0
+V0358,Mercedes,E-Class,2022,sedan,Gasoline,59000.0
+V0359,Lexus,ES 350,2021,sedan,Gasoline,42000.0
+V0360,Volkswagen,Atlas,2023,SUV,Gasoline,44000.0
+V0361,Chevrolet,Silverado,2024,truck,Diesel,58000.0
+V0362,Toyota,Camry,2022,sedan,Gasoline,28000.0
+V0363,Ford,F-150,2023,TRUCK,Diesel,52000.0
+V0364,,Civic,2021,hatchback,Gasoline,24000.0
+V0365,BMW,X5,2022,SUV,Diesel,68000.0
+V0366,Honda,Accord,2023,sedan,Hybrid,32000.0
+V0367,Chevrolet,Silverado,2022,truck,Gasoline,45000.0
+V0368,Audi,A4,2021,Sedan,Gasoline,41000.0
+V0369,Hyundai,Tucson,2023,SUV,Hybrid,33000.0
+V0370,Mercedes,C-Class,2022,sedan,Gasoline,47000.0
+V0371,Toyota,RAV4,2023,SUV,Hybrid,34000.0
+V0372,Ford,Explorer,2021,SUV,Gasoline,38000.0
+V0373,Kia,Telluride,2023,suv,Gasoline,49000.0
+V0374,Subaru,Outback,2022,Wagon,Gasoline,34000.0
+V0375,Mazda,CX-5,2021,SUV,Gasoline,30000.0
+V0376,Jeep,Wrangler,2023,SUV,Hybrid,55000.0
+V0377,,Accord,2022,sedan,Hybrid,31000.0
+V0378,Lexus,RX 350,2021,SUV,Gasoline,50000.0
+V0379,Volkswagen,Tiguan,2022,SUV,Gasoline,28000.0
+V0380,Chevrolet,Tahoe,2023,suv,Gasoline,60000.0
+V0381,Hyundai,Elantra,2024,sedan,Gasoline,25000.0
+V0382,Nissan,Rogue,2022,SUV,Gasoline,29000.0
+V0383,BMW,3 Series,2023,SEDAN,Gasoline,46000.0
+V0384,Honda,Civic,2020,hatchback,Gasoline,22000.0
+V0385,Ford,F-250,2022,TRUCK,Diesel,65000.0
+V0386,Mercedes,GLC,2023,SUV,Gasoline,52000.0
+V0387,,Mustang,2021,coupe,Gasoline,32000.0
+V0388,Kia,Sportage,2022,SUV,Gasoline,31000.0
+V0389,Subaru,Forester,2023,SUV,Gasoline,32000.0
+V0390,Jeep,Grand Cherokee,2021,SUV,Gasoline,43000.0
+V0391,Chevrolet,Equinox,2023,SUV,Gasoline,30000.0
+V0392,Audi,Q7,2022,SUV,Gasoline,62000.0
+V0393,Nissan,Pathfinder,2022,SUV,Gasoline,36000.0
+V0394,Toyota,Tacoma,2023,truck,Gasoline,39000.0
+V0395,BMW,X3,2021,SUV,Gasoline,45000.0
+V0396,Honda,Pilot,2023,SUV,Gasoline,41000.0
+V0397,,Explorer,2024,SUV,Gasoline,42000.0
+V0398,Lexus,ES 350,2023,sedan,Gasoline,43000.0
+V0399,Volkswagen,Atlas,2022,SUV,Gasoline,40000.0
+V0400,Chevrolet,Silverado,2024,truck,Diesel,59000.0
+V0401,Toyota,Corolla,2022,sedan,Gasoline,23000.0
+V0402,Ford,F-150,2024,TRUCK,Electric,60000.0
+V0403,,Civic,2023,hatchback,Hybrid,29000.0
+V0404,BMW,X5,2021,SUV,Diesel,64000.0
+V0405,Nissan,Altima,2021,SEDAN,Gasoline,23000.0
+V0406,Chevrolet,Colorado,2022,truck,Gasoline,34000.0
+V0407,Audi,Q3,2023,SUV,Gasoline,38000.0
+V0408,,Mustang,2022,coupe,Gasoline,35000.0
+V0409,Mercedes,GLA,2022,SUV,Gasoline,39000.0
+V0410,Kia,Seltos,2023,SUV,Gasoline,26000.0
+V0411,Subaru,Impreza,2021,hatchback,Gasoline,22000.0
+V0412,Mazda,6,2022,sedan,Gasoline,28000.0
+V0413,Lexus,GX,2022,SUV,Gasoline,58000.0
+V0414,Volkswagen,Jetta,2021,sedan,Gasoline,23000.0
+V0415,Chevrolet,Blazer,2023,SUV,Gasoline,37000.0
+V0416,Audi,e-tron,2024,SUV,Electric,75000.0
+V0417,Nissan,Titan,2022,truck,Gasoline,50000.0
+V0418,Toyota,Sienna,2024,minivan,Hybrid,42000.0
+V0419,BMW,X1,2023,SUV,Gasoline,40000.0
+V0420,Honda,Odyssey,2022,minivan,Gasoline,39000.0
+V0421,Ford,Ranger,2023,truck,Gasoline,35000.0
+V0422,,Soul,2021,hatchback,Gasoline,19000.0
+V0423,Subaru,Ascent,2022,SUV,Gasoline,41000.0
+V0424,Mazda,MX-30,2023,SUV,Electric,35000.0
+V0425,Jeep,Renegade,2022,SUV,Gasoline,25000.0
+V0426,Lexus,NX,2023,SUV,Hybrid,46000.0
+V0427,Audi,A6,2023,sedan,Gasoline,58000.0
+V0428,Hyundai,Ioniq 6,2024,sedan,Electric,47000.0
+V0429,Nissan,Ariya,2024,SUV,Electric,49000.0
+V0430,Toyota,GR86,2023,coupe,Gasoline,32000.0
+V0431,Ford,Lightning,2023,truck,Electric,72000.0
+V0432,Audi,RS6,2023,wagon,Gasoline,120000.0
+V0433,Mercedes,GT,2022,coupe,Gasoline,95000.0
+V0434,Chevrolet,Corvette,2024,coupe,Gasoline,78000.0
+V0435,Nissan,Z Nismo,2024,coupe,Gasoline,68000.0
+V0436,Ford,Maverick,2022,truck,Hybrid,25000.0
+V0437,Kia,EV6,2023,SUV,Electric,51000.0
+V0438,Subaru,Solterra,2024,SUV,Electric,47000.0
+V0439,Mazda,CX-90,2024,SUV,Hybrid,52000.0
+V0440,Lexus,LX 600,2023,SUV,Gasoline,95000.0
+V0441,Volkswagen,ID.4,2022,SUV,Electric,41000.0
+V0442,Audi,Q8,2024,SUV,Gasoline,78000.0
+V0443,Nissan,Leaf,2021,hatchback,Electric,28000.0
+V0444,Toyota,Supra,2024,coupe,Gasoline,57000.0
+V0445,Ford,Expedition,2022,SUV,Gasoline,68000.0
+V0446,Honda,Ridgeline,2021,truck,Gasoline,39000.0
+V0447,Mercedes,EQS,2023,sedan,Electric,105000.0
+V0448,Audi,SQ5,2022,SUV,Gasoline,59000.0
+V0449,Hyundai,Sonata,2023,sedan,Hybrid,32000.0
+V0450,Nissan,Sentra,2020,sedan,Gasoline,20000.0
+V0451,Chevrolet,Blazer EV,2024,SUV,Electric,56000.0
+V0452,Toyota,4Runner,2021,SUV,Gasoline,43000.0
+V0453,Ford,Edge,2022,SUV,Gasoline,35000.0
+V0454,,Accord,2020,sedan,Hybrid,28000.0
+V0455,Audi,Q4,2023,SUV,Electric,55000.0
+V0456,Nissan,Murano,2021,SUV,Gasoline,37000.0
+V0457,Toyota,Avalon,2022,sedan,Hybrid,40000.0
+V0458,Ford,F-350,2024,TRUCK,Diesel,75000.0
+V0459,Honda,Passport,2022,SUV,Gasoline,39000.0
+V0460,Tesla,Model Y,23,SUV,Electric,52000.0
+V0461,Mercedes,EQB,2023,SUV,Electric,54000.0
+V0462,Hyundai,Venue,2022,SUV,Gasoline,21000.0
+V0463,Toyota,Mirai,2023,sedan,Hydrogen,52000.0
+V0464,Honda,CR-V,22,SUV,Hybrid,33000.0
+V0465,Audi,RS7,2024,sedan,Gasoline,130000.0
+V0466,Nissan,Z,2024,coupe,Gasoline,43000.0
+V0467,Toyota,Tundra,2023,truck,Gasoline,55000.0
+V0468,Ford,Explorer,2023,SUV,Hybrid,52000.0
+V0469,Honda,Fit,2020,hatchback,Gasoline,19000.0
+V0470,BMW,X6,2023,SUV,Gasoline,72000.0
+V0471,Audi,Q5,22,SUV,Gasoline,46000.0
+V0472,Hyundai,Kona,2023,SUV,Gasoline,24000.0
+V0473,Nissan,Pathfinder,2024,SUV,Gasoline,38000.0
+V0474,Toyota,Venza,2022,SUV,Hybrid,37000.0
+V0475,Ford,Ranger,2022,truck,Gasoline,34000.0
+V0476,Honda,Pilot,2024,SUV,Gasoline,44000.0
+V0477,BMW,iX,2024,SUV,Electric,89000.0
+V0478,Mercedes,GLB,2023,SUV,Gasoline,41000.0
+V0479,Audi,Q7,2023,SUV,Gasoline,64000.0
+V0480,Hyundai,Ioniq 5,2023,SUV,Electric,46000.0
+V0481,Toyota,Highlander,2024,SUV,Hybrid,46000.0
+V0482,Ford,Bronco Sport,2023,SUV,Gasoline,32000.0
+V0483,Tesla,Model X,2024,SUV,Electric,99000.0
+V0484,BMW,X4,2022,SUV,Gasoline,53000.0
+V0485,Mercedes,EQE,2024,sedan,Electric,78000.0
+V0486,Audi,A3,2022,sedan,Gasoline,36000.0
+V0487,Honda,Civic,2021,hatchback,Gasoline,23000.0
+V0488,Tesla,Model 3,24,sedan,Electric,42000.0
+V0489,Mercedes,GLC,2024,SUV,Gasoline,49000.0
+V0490,Audi,SQ7,2024,SUV,Gasoline,95000.0
+V0491,Hyundai,Palisade,2024,SUV,Gasoline,46000.0
+V0492,Toyota,Supra,2023,coupe,Gasoline,54000.0
+V0493,Ford,Expedition,2024,SUV,Gasoline,72000.0
+V0494,BMW,i4,2023,sedan,Electric,58000.0
+V0495,Hyundai,Tucson,24,SUV,Hybrid,33000.0
+V0496,Nissan,Sentra,24,sedan,Gasoline,23000.0
+V0497,Ford,Ranger,2024,truck,Gasoline,36000.0
+V0498,Honda,CR-V,2023,SUV,Hybrid,35000.0
+V0499,Hyundai,Santa Cruz,2024,truck,Gasoline,31000.0
+V0500,Nissan,Ariya,2023,SUV,Electric,46000.0
+V0501,Toyota,GR86,2024,coupe,Gasoline,33000.0
+V0502,Honda,Civic,2024,sedan,Gasoline,26000.0
+V0503,Audi,e-tron GT,2024,sedan,Electric,105000.0
+V0504,Nissan,Titan,2024,truck,Gasoline,55000.0
+V0505,Toyota,Tacoma,2024,truck,Gasoline,41000.0
+V0506,Ford,Explorer,2024,SUV,Gasoline,43000.0
+V0507,Honda,Pilot,2024,SUV,Gasoline,45000.0
+V0508,BMW,M3,2024,sedan,Gasoline,78000.0
+V0509,Mercedes,CLA,2024,coupe,Gasoline,44000.0
+V0510,Audi,Q5,2024,SUV,Gasoline,48000.0
+V0511,Hyundai,Elantra,2024,sedan,Gasoline,26000.0
+V0512,Toyota,Camry,2024,sedan,Hybrid,32000.0
+V0513,Ford,F-150,2024,TRUCK,Gasoline,52000.0
+V0514,Honda,Accord,2024,sedan,Hybrid,36000.0
+V0515,Tesla,Model Y,2024,SUV,Electric,54000.0
+V0516,BMW,X3,2024,SUV,Gasoline,49000.0
+V0517,Mercedes,GLC,2024,SUV,Gasoline,51000.0
+V0518,Audi,A4,2024,sedan,Gasoline,43000.0
+V0519,Hyundai,Tucson,2024,SUV,Hybrid,34000.0
+V0520,Nissan,Sentra,2024,sedan,Gasoline,24000.0
+V0521,Toyota,RAV4,2024,SUV,Hybrid,36000.0
+V0522,Ford,Mustang,2024,coupe,Gasoline,46000.0
+V0523,Honda,CR-V,2024,SUV,Hybrid,37000.0
+V0524,Tesla,Model S,2024,sedan,Electric,90000.0
+V0525,BMW,5 Series,2024,sedan,Gasoline,58000.0
+V0526,Mercedes,E-Class,2024,sedan,Gasoline,62000.0
+V0527,Audi,A6,2024,sedan,Gasoline,60000.0
+V0528,Hyundai,Santa Fe,2024,SUV,Hybrid,38000.0
+V0529,Nissan,Pathfinder,2024,SUV,Gasoline,39000.0
+V0530,Toyota,Highlander,2024,SUV,Hybrid,47000.0
+V0531,Ford,Explorer,2024,SUV,Gasoline,44000.0
+V0532,Honda,Pilot,2024,SUV,Gasoline,46000.0
+V0533,Tesla,Model X,2024,SUV,Electric,100000.0
+V0534,BMW,X5,2024,SUV,Diesel,70000.0
+V0535,Mercedes,GLE,2024,SUV,Gasoline,67000.0
+V0536,Audi,Q7,2024,SUV,Gasoline,66000.0
+V0537,Hyundai,Palisade,2024,SUV,Gasoline,47000.0
+V0538,Nissan,Titan,2024,truck,Gasoline,56000.0
+V0539,Toyota,Tundra,2024,truck,Gasoline,58000.0
+V0540,Ford,F-150,2024,TRUCK,Gasoline,53000.0
+V0541,Honda,Ridgeline,2024,truck,Gasoline,41000.0
+V0542,Tesla,Cybertruck,2024,truck,Electric,86000.0
+V0543,BMW,X7,2024,SUV,Gasoline,88000.0
+V0544,Mercedes,S-Class,2024,sedan,Gasoline,118000.0
+V0545,Audi,Q8,2024,SUV,Gasoline,79000.0
+V0546,Hyundai,Ioniq 5,2024,SUV,Electric,50000.0
+V0547,Nissan,Ariya,2024,SUV,Electric,51000.0
+V0548,Toyota,Sienna,2024,minivan,Hybrid,43000.0
+V0549,Ford,Expedition,2024,SUV,Gasoline,73000.0
+V0550,Honda,Odyssey,2024,minivan,Gasoline,41000.0
+V0551,Tesla,Semi,2024,truck,Electric,161000.0
+V0552,BMW,iX,2024,SUV,Electric,90000.0
+V0553,Mercedes,EQS,2024,sedan,Electric,108000.0
+V0554,Audi,RS6,2024,wagon,Gasoline,126000.0
+V0555,Hyundai,Ioniq 7,2024,SUV,Electric,69000.0
+V0556,Nissan,GT-R,2024,coupe,Gasoline,121000.0
+V0557,Toyota,Supra,2024,coupe,Gasoline,58000.0
+V0558,Ford,Mustang Mach-E,2024,SUV,Electric,53000.0
+V0559,Honda,Civic Type R,2024,hatchback,Gasoline,47000.0
+V0560,Tesla,Roadster,2024,coupe,Electric,201000.0
+V0561,BMW,XM,2024,SUV,Hybrid,166000.0
+V0562,Mercedes,GT,2024,coupe,Gasoline,98000.0
+V0563,Audi,SQ5,2024,SUV,Gasoline,61000.0
+V0564,Hyundai,Sonata,2024,sedan,Hybrid,33000.0
+V0565,Nissan,Leaf,2024,hatchback,Electric,30000.0
+V0566,Toyota,Corolla,2024,sedan,Gasoline,24000.0
+V0567,Ford,Bronco,2024,SUV,Gasoline,50000.0
+V0568,Honda,CR-V,2024,SUV,Hybrid,38000.0
+V0569,Tesla,Model 3,2024,sedan,Electric,42000.0
+V0570,BMW,X3,2024,SUV,Gasoline,50000.0
+V0571,Mercedes,GLC,2024,SUV,Gasoline,52000.0
+V0572,Audi,Q5,2024,SUV,Gasoline,49000.0
+V0573,Hyundai,Tucson,2024,SUV,Hybrid,35000.0
+V0574,Nissan,Rogue,2024,SUV,Gasoline,34000.0
+V0575,Toyota,Camry,2024,sedan,Hybrid,33000.0
+V0576,Honda,Accord,2024,sedan,Hybrid,37000.0
+V0577,Tesla,Model Y,2024,SUV,Electric,55000.0
+V0578,BMW,M3,2024,sedan,Gasoline,79000.0
+V0579,Mercedes,CLA,2024,coupe,Gasoline,45000.0
+V0580,Audi,A4,2024,sedan,Gasoline,44000.0
+V0581,Hyundai,Elantra,2024,sedan,Gasoline,27000.0
+V0582,Nissan,Sentra,2024,sedan,Gasoline,25000.0
+V0583,Toyota,RAV4,2024,SUV,Hybrid,37000.0
+V0584,Ford,Mustang,2024,coupe,Gasoline,47000.0
+V0585,Honda,CR-V,2024,SUV,Hybrid,39000.0
+V0586,Tesla,Model S,2024,sedan,Electric,91000.0
+V0587,BMW,5 Series,2024,sedan,Gasoline,59000.0
+V0588,Mercedes,E-Class,2024,sedan,Gasoline,63000.0
+V0589,Audi,A6,2024,sedan,Gasoline,61000.0
+V0590,Hyundai,Santa Fe,2024,SUV,Hybrid,39000.0
+V0591,Nissan,Pathfinder,2024,SUV,Gasoline,40000.0
+V0592,Toyota,Highlander,2024,SUV,Hybrid,48000.0
+V0593,Ford,Explorer,2024,SUV,Gasoline,45000.0
+V0594,Honda,Pilot,2024,SUV,Gasoline,47000.0
+V0595,Tesla,Model X,2024,SUV,Electric,101000.0
+V0596,BMW,X5,2024,SUV,Diesel,71000.0
+V0597,Mercedes,GLE,2024,SUV,Gasoline,68000.0
+V0598,Audi,Q7,2024,SUV,Gasoline,67000.0
+V0599,Hyundai,Palisade,2024,SUV,Gasoline,48000.0
+V0600,Nissan,Titan,2024,truck,Gasoline,57000.0
+V0601,Toyota,Tundra,2024,truck,Gasoline,59000.0
+V0602,Ford,F-150,2024,TRUCK,Gasoline,54000.0
+V0603,Honda,Ridgeline,2024,truck,Gasoline,42000.0
+V0604,Tesla,Cybertruck,2024,truck,Electric,87000.0
+V0605,BMW,X7,2024,SUV,Gasoline,89000.0
+V0606,Mercedes,S-Class,2024,sedan,Gasoline,119000.0
+V0607,Audi,Q8,2024,SUV,Gasoline,80000.0
+V0608,Hyundai,Ioniq 5,2024,SUV,Electric,51000.0
+V0609,Nissan,Ariya,2024,SUV,Electric,52000.0
+V0610,Toyota,Sienna,2024,minivan,Hybrid,44000.0
+V0611,Ford,Expedition,2024,SUV,Gasoline,74000.0
+V0612,Honda,Odyssey,2024,minivan,Gasoline,42000.0
+V0613,Tesla,Semi,2024,truck,Electric,162000.0
+V0614,BMW,iX,2024,SUV,Electric,91000.0
+V0615,Mercedes,EQS,2024,sedan,Electric,109000.0
+V0616,Audi,RS6,2024,wagon,Gasoline,127000.0
+V0617,Hyundai,Ioniq 7,2024,SUV,Electric,70000.0
+V0618,Nissan,GT-R,2024,coupe,Gasoline,122000.0
+V0619,Toyota,Supra,2024,coupe,Gasoline,59000.0
+V0620,Ford,Mustang Mach-E,2024,SUV,Electric,54000.0
+V0621,Honda,Civic Type R,2024,hatchback,Gasoline,48000.0
+V0622,Tesla,Roadster,2024,coupe,Electric,202000.0
+V0623,BMW,XM,2024,SUV,Hybrid,167000.0
+V0624,Mercedes,GT,2024,coupe,Gasoline,99000.0
+V0625,Audi,SQ5,2024,SUV,Gasoline,62000.0
+V0626,Hyundai,Sonata,2024,sedan,Hybrid,34000.0
+V0627,Nissan,Leaf,2024,hatchback,Electric,31000.0
+V0628,Toyota,Corolla,2024,sedan,Gasoline,25000.0
+V0629,Ford,Bronco,2024,SUV,Gasoline,51000.0
+V0630,Tesla,Model 3,2024,sedan,Electric,43000.0
+V0631,BMW,X3,2024,SUV,Gasoline,51000.0
+V0632,Mercedes,GLC,2024,SUV,Gasoline,53000.0
+V0633,Audi,Q5,2024,SUV,Gasoline,50000.0
+V0634,Hyundai,Tucson,2024,SUV,Hybrid,36000.0
+V0635,Nissan,Rogue,2024,SUV,Gasoline,35000.0
+V0636,Toyota,Camry,2024,sedan,Hybrid,34000.0
+V0637,Honda,Accord,2024,sedan,Hybrid,38000.0
+V0638,Tesla,Model Y,2024,SUV,Electric,56000.0
+V0639,BMW,M3,2024,sedan,Gasoline,80000.0
+V0640,Mercedes,CLA,2024,coupe,Gasoline,46000.0
+V0641,Audi,A4,2024,sedan,Gasoline,45000.0
+V0642,Hyundai,Elantra,2024,sedan,Gasoline,28000.0
+V0643,Nissan,Sentra,2024,sedan,Gasoline,26000.0
+V0644,Toyota,RAV4,2024,SUV,Hybrid,38000.0
+V0645,Ford,Mustang,2024,coupe,Gasoline,48000.0
+V0646,Honda,CR-V,2024,SUV,Hybrid,40000.0
+V0647,Tesla,Model S,2024,sedan,Electric,92000.0
+V0648,BMW,5 Series,2024,sedan,Gasoline,60000.0
+V0649,Mercedes,E-Class,2024,sedan,Gasoline,64000.0
+V0650,Audi,A6,2024,sedan,Gasoline,62000.0
+V0651,Hyundai,Santa Fe,2024,SUV,Hybrid,40000.0
+V0652,Nissan,Pathfinder,2024,SUV,Gasoline,41000.0
+V0653,Toyota,Highlander,2024,SUV,Hybrid,49000.0
+V0654,Ford,Explorer,2024,SUV,Gasoline,46000.0
+V0655,Honda,Pilot,2024,SUV,Gasoline,48000.0
+V0656,Tesla,Model X,2024,SUV,Electric,102000.0
+V0657,BMW,X5,2024,SUV,Diesel,72000.0
+V0658,Mercedes,GLE,2024,SUV,Gasoline,69000.0
+V0659,Audi,Q7,2024,SUV,Gasoline,68000.0
+V0660,Hyundai,Palisade,2024,SUV,Gasoline,49000.0
+V0661,Nissan,Titan,2024,truck,Gasoline,58000.0
+V0662,Toyota,Tundra,2024,truck,Gasoline,60000.0
+V0663,Ford,F-150,2024,TRUCK,Gasoline,55000.0
+V0664,Honda,Ridgeline,2024,truck,Gasoline,43000.0
+V0665,Tesla,Cybertruck,2024,truck,Electric,88000.0
+V0666,BMW,X7,2024,SUV,Gasoline,90000.0
+V0667,Mercedes,S-Class,2024,sedan,Gasoline,120000.0
+V0668,Audi,Q8,2024,SUV,Gasoline,81000.0
+V0669,Hyundai,Ioniq 5,2024,SUV,Electric,52000.0
+V0670,Nissan,Ariya,2024,SUV,Electric,53000.0
+V0671,Toyota,Sienna,2024,minivan,Hybrid,45000.0
+V0672,Ford,Expedition,2024,SUV,Gasoline,75000.0
+V0673,Honda,Odyssey,2024,minivan,Gasoline,43000.0
+V0674,Tesla,Semi,2024,truck,Electric,163000.0
+V0675,BMW,iX,2024,SUV,Electric,92000.0
+V0676,Audi,RS6,2024,wagon,Gasoline,128000.0
+V0677,Hyundai,Ioniq 7,2024,SUV,Electric,71000.0
+V0678,Nissan,GT-R,2024,coupe,Gasoline,123000.0
+V0679,Toyota,Supra,2024,coupe,Gasoline,60000.0
+V0680,Ford,Mustang Mach-E,2024,SUV,Electric,55000.0
+V0681,Honda,Civic Type R,2024,hatchback,Gasoline,49000.0
+V0682,Tesla,Roadster,2024,coupe,Electric,203000.0
+V0683,BMW,XM,2024,SUV,Hybrid,168000.0
+V0684,Mercedes,GT,2024,coupe,Gasoline,100000.0
+V0685,Audi,SQ5,2024,SUV,Gasoline,63000.0
+V0686,Hyundai,Sonata,2024,sedan,Hybrid,35000.0
+V0687,Nissan,Leaf,2024,hatchback,Electric,32000.0
+V0688,Toyota,Corolla,2024,sedan,Gasoline,26000.0
+V0689,Ford,Bronco,2024,SUV,Gasoline,52000.0
+V0690,Tesla,Model 3,2024,sedan,Electric,44000.0
+V0691,BMW,X3,2024,SUV,Gasoline,52000.0
+V0692,Mercedes,GLC,2024,SUV,Gasoline,54000.0
+V0693,Audi,Q5,2024,SUV,Gasoline,51000.0
+V0694,Hyundai,Tucson,2024,SUV,Hybrid,37000.0
+V0695,Nissan,Rogue,2024,SUV,Gasoline,36000.0
+V0696,Toyota,Camry,2024,sedan,Hybrid,35000.0
+V0697,Honda,Accord,2024,sedan,Hybrid,39000.0
+V0698,Tesla,Model Y,2024,SUV,Electric,57000.0
+V0699,BMW,M3,2024,sedan,Gasoline,81000.0
+V0700,Mercedes,CLA,2024,coupe,Gasoline,47000.0
+V0701,Audi,A4,2024,sedan,Gasoline,46000.0
+V0702,Hyundai,Elantra,2024,sedan,Gasoline,29000.0
+V0703,Nissan,Sentra,2024,sedan,Gasoline,27000.0
+V0704,Toyota,RAV4,2024,SUV,Hybrid,39000.0
+V0705,Ford,Mustang,2024,coupe,Gasoline,49000.0
+V0706,Honda,CR-V,2024,SUV,Hybrid,41000.0
+V0707,Tesla,Model S,2024,sedan,Electric,93000.0
+V0708,BMW,5 Series,2024,sedan,Gasoline,61000.0
+V0709,Mercedes,E-Class,2024,sedan,Gasoline,65000.0
+V0710,Audi,A6,2024,sedan,Gasoline,63000.0
+V0711,Hyundai,Santa Fe,2024,SUV,Hybrid,41000.0
+V0712,Nissan,Pathfinder,2024,SUV,Gasoline,42000.0
+V0713,Toyota,Highlander,2024,SUV,Hybrid,50000.0
+V0714,Ford,Explorer,2024,SUV,Gasoline,47000.0
+V0715,Honda,Pilot,2024,SUV,Gasoline,49000.0
+V0716,Tesla,Model X,2024,SUV,Electric,103000.0
+V0717,BMW,X5,2024,SUV,Diesel,73000.0
+V0718,Mercedes,GLE,2024,SUV,Gasoline,70000.0
+V0719,Audi,Q7,2024,SUV,Gasoline,69000.0
+V0720,Hyundai,Palisade,2024,SUV,Gasoline,50000.0
+V0721,Nissan,Titan,2024,truck,Gasoline,59000.0
+V0722,Toyota,Tundra,2024,truck,Gasoline,61000.0
+V0723,Ford,F-150,2024,TRUCK,Gasoline,56000.0
+V0724,Honda,Ridgeline,2024,truck,Gasoline,44000.0
+V0725,Tesla,Cybertruck,2024,truck,Electric,89000.0
+V0726,BMW,X7,2024,SUV,Gasoline,91000.0
+V0727,Mercedes,S-Class,2024,sedan,Gasoline,121000.0
+V0728,Audi,Q8,2024,SUV,Gasoline,82000.0
+V0729,Hyundai,Ioniq 5,2024,SUV,Electric,53000.0
+V0730,Nissan,Ariya,2024,SUV,Electric,54000.0
+V0731,Toyota,Sienna,2024,minivan,Hybrid,46000.0
+V0732,Ford,Expedition,2024,SUV,Gasoline,76000.0
+V0733,Honda,Odyssey,2024,minivan,Gasoline,44000.0
+V0734,Tesla,Semi,2024,truck,Electric,164000.0
+V0735,BMW,iX,2024,SUV,Electric,93000.0
+V0736,Mercedes,EQS,2024,sedan,Electric,111000.0
+V0737,Audi,RS6,2024,wagon,Gasoline,129000.0
+V0738,Hyundai,Ioniq 7,2024,SUV,Electric,72000.0
+V0739,Nissan,GT-R,2024,coupe,Gasoline,124000.0
+V0740,Toyota,Supra,2024,coupe,Gasoline,61000.0
+V0741,Ford,Mustang Mach-E,2024,SUV,Electric,56000.0
+V0742,Honda,Civic Type R,2024,hatchback,Gasoline,50000.0
+V0743,Tesla,Roadster,2024,coupe,Electric,204000.0
+V0744,BMW,XM,2024,SUV,Hybrid,169000.0
+V0745,Mercedes,GT,2024,coupe,Gasoline,101000.0
+V0746,Audi,SQ5,2024,SUV,Gasoline,64000.0
+V0747,Hyundai,Sonata,2024,sedan,Hybrid,36000.0
+V0748,Nissan,Leaf,2024,hatchback,Electric,33000.0
+V0749,Toyota,Corolla,2024,sedan,Gasoline,27000.0
+V0750,Ford,Bronco,2024,SUV,Gasoline,53000.0
+V0751,Tesla,Model 3,2024,sedan,Electric,45000.0
+V0752,BMW,X3,2024,SUV,Gasoline,53000.0
+V0753,Mercedes,GLC,2024,SUV,Gasoline,55000.0
+V0754,Audi,Q5,2024,SUV,Gasoline,52000.0
+V0755,Hyundai,Tucson,2024,SUV,Hybrid,38000.0
+V0756,Nissan,Rogue,2024,SUV,Gasoline,37000.0
+V0757,Toyota,Camry,2024,sedan,Hybrid,36000.0
+V0758,Honda,Accord,2024,sedan,Hybrid,40000.0
+V0759,Tesla,Model Y,2024,SUV,Electric,58000.0
+V0760,BMW,M3,2024,sedan,Gasoline,82000.0
+V0761,Mercedes,CLA,2024,coupe,Gasoline,48000.0
+V0762,Audi,A4,2024,sedan,Gasoline,47000.0
+V0763,Hyundai,Elantra,2024,sedan,Gasoline,30000.0
+V0764,Nissan,Sentra,2024,sedan,Gasoline,28000.0
+V0765,Toyota,RAV4,2024,SUV,Hybrid,40000.0
+V0766,Ford,Mustang,2024,coupe,Gasoline,50000.0
+V0767,Honda,CR-V,2024,SUV,Hybrid,42000.0
+V0768,Tesla,Model S,2024,sedan,Electric,94000.0
+V0769,BMW,5 Series,2024,sedan,Gasoline,62000.0
+V0770,Mercedes,E-Class,2024,sedan,Gasoline,66000.0
+V0771,Audi,A6,2024,sedan,Gasoline,64000.0
+V0772,Hyundai,Santa Fe,2024,SUV,Hybrid,42000.0
+V0773,Nissan,Pathfinder,2024,SUV,Gasoline,43000.0
+V0774,Toyota,Highlander,2024,SUV,Hybrid,51000.0
+V0775,Ford,Explorer,2024,SUV,Gasoline,48000.0
+V0776,Toyota,Sequoia,2024,SUV,Hybrid,78000.0
+V0777,Ford,F-150 Lightning,2024,TRUCK,Electric,62000.0
+V0778,,Accord,2022,sedan,Hybrid,33000.0
+V0779,Tesla,Model 3,2025,sedan,Electric,42000.0
+V0780,BMW,i7,2024,Luxury Sedan,Electric,105000.0
+V0781,Honda,Civic,2023,hatchback,Gasoline,26000.0
+V0782,Nissan,Frontier,2022,truck,Gasoline,35000.0
+V0783,Chevrolet,Corvette Z06,2024,coupe,Gasoline,110000.0
+V0784,Audi,RS e-tron GT,2024,sedan,Electric,145000.0
+V0785,Hyundai,Kona EV,2024,SUV,Electric,38000.0
+V0786,,Mustang Dark Horse,2024,coupe,Gasoline,62000.0
+V0787,Mercedes,EQS SUV,2024,SUV,Electric,108000.0
+V0788,Toyota,Land Cruiser,2024,SUV,Hybrid,58000.0
+V0789,Kia,EV9,2024,SUV,Electric,65000.0
+V0790,Subaru,WRX,2023,sedan,Gasoline,32000.0
+V0791,Mazda,CX-90,2024,SUV,PHEV,51000.0
+V0792,Tesla,Cyberbeast,2024,truck,Electric,100000.0
+V0793,Jeep,Grand Wagoneer,2023,SUV,Gasoline,92000.0
+V0794,,Highlander,2021,SUV,Hybrid,41000.0
+V0795,Lexus,TX,2024,SUV,Hybrid,56000.0
+V0796,Volkswagen,ID. Buzz,2024,Van,Electric,60000.0
+V0797,Audi,Q4 e-tron,2023,SUV,Electric,51000.0
+V0798,Hyundai,Ioniq 5 N,2024,Hatchback,Electric,67000.0
+V0799,Nissan,Ariya,2023,SUV,Electric,48000.0
+V0800,Toyota,Crown Signia,2025,SUV,Hybrid,45000.0
+V0801,BMW,M2,2024,coupe,Gasoline,64000.0
+V0802,Honda,Prologue,2024,SUV,Electric,49000.0
+V0803,Ford,Bronco Raptor,2024,SUV,Gasoline,91000.0
+V0804,Tesla,Model S Plaid,2024,sedan,Electric,90000.0
+V0805,Mercedes,G-Class,2024,SUV,Gasoline,145000.0
+V0806,,Camry,2025,sedan,Hybrid,30000.0
+V0807,Kia,Sportage PHEV,2023,SUV,Hybrid,40000.0
+V0808,Subaru,Crosstrek,2024,SUV,Gasoline,27000.0
+V0809,Mazda,CX-30,2023,SUV,Gasoline,25000.0
+V0810,Jeep,Gladiator,2022,truck,Gasoline,48000.0
+V0811,Chevrolet,Colorado,2024,truck,Gasoline,33000.0
+V0812,Audi,A3,2023,sedan,Gasoline,36000.0
+V0813,Hyundai,Sonata,2024,sedan,Gasoline,29000.0
+V0814,Toyota,Tacoma,2024,truck,Hybrid,45000.0
+V0815,Honda,Passport,2023,SUV,Gasoline,43000.0
+V0816,,Explorer,2022,SUV,Gasoline,39000.0
+V0817,Tesla,Model X Plaid,2024,SUV,Electric,96000.0
+V0818,Mercedes,CLE Coupe,2024,coupe,Gasoline,58000.0
+V0819,Lexus,GX 550,2024,SUV,Gasoline,66000.0
+V0820,Volkswagen,Golf R,2024,hatchback,Gasoline,46000.0
+V0821,Chevrolet,Silverado 2500,2024,truck,Diesel,72000.0
+V0822,Ford,F-150,2024,truck,Electric,62000.0
+V0823,Honda,Accord,2022,sedan,Hybrid,33000.0
+V0824,BMW,i7,2024,sedan,Electric,105000.0
+V0825,Chevrolet,Corvette,2024,coupe,Gasoline,110000.0
+V0826,Audi,RS e-tron,2024,sedan,Electric,145000.0
+V0827,Hyundai,Kona,2024,SUV,Electric,38000.0
+V0828,Ford,Mustang,2024,coupe,Gasoline,62000.0
+V0829,Mercedes,EQS,2024,SUV,Electric,108000.0
+V0830,Tesla,Cybertruck,2024,truck,Electric,100000.0
+V0831,Toyota,Highlander,2021,SUV,Hybrid,41000.0
+V0832,Audi,Q4,2023,SUV,Electric,51000.0
+V0833,Hyundai,Ioniq 5,2024,hatchback,Electric,67000.0
+V0834,Toyota,Crown,2025,SUV,Hybrid,45000.0
+V0835,Ford,Bronco,2024,SUV,Gasoline,91000.0
+V0836,Toyota,Camry,2025,sedan,Hybrid,30000.0
+V0837,Kia,Sportage,2023,SUV,Hybrid,40000.0
+V0838,Ford,Explorer,2022,SUV,Gasoline,39000.0
+V0839,Mercedes,CLE,2024,coupe,Gasoline,58000.0
+V0840,Lexus,GX,2024,SUV,Gasoline,66000.0
+V0841,Volkswagen,Golf,2024,hatchback,Gasoline,46000.0
+V0842,Chevrolet,Silverado,2024,truck,Diesel,72000.0
+V0843,Toyota,Venza,2023,SUV,Hybrid,35000.0
+V0844,Ford,F-150,2022,truck,Gasoline,45000.0
+V0845,Tesla,Model 3,2021,sedan,Electric,35000.0
+V0846,BMW,X5,2024,SUV,Gasoline,68000.0
+V0847,Hyundai,Ioniq 6,2024,sedan,Electric,44000.0
+V0848,Nissan,Altima,2022,sedan,Gasoline,24000.0
+V0849,Chevrolet,Equinox,2023,SUV,Gasoline,28000.0
+V0850,Audi,Q5,2022,SUV,Gasoline,43000.0
+V0851,Toyota,Camry,2024,sedan,Gasoline,28000.0
+V0852,Ford,Escape,2023,SUV,Hybrid,31000.0
+V0853,Honda,Civic,2024,sedan,Gasoline,25000.0
+V0854,Tesla,Model Y,2024,SUV,Electric,49000.0
+V0855,BMW,3 Series,2022,sedan,Gasoline,42000.0
+V0856,Mercedes,C-Class,2023,sedan,Gasoline,46000.0
+V0857,Lexus,ES,2022,sedan,Gasoline,43000.0
+V0858,Subaru,Outback,2023,wagon,Gasoline,33000.0
+V0859,Mazda,CX-5,2024,SUV,Gasoline,30000.0
+V0860,Volkswagen,Tiguan,2022,SUV,Gasoline,29000.0
+V0861,Kia,Telluride,2024,SUV,Gasoline,48000.0
+V0862,Jeep,Wrangler,2023,SUV,Gasoline,45000.0
+V0863,Chevrolet,Tahoe,2022,SUV,Gasoline,58000.0
+V0864,Audi,A4,2023,sedan,Gasoline,41000.0
+V0865,Hyundai,Elantra,2024,sedan,Gasoline,23000.0
+V0866,Nissan,Rogue,2023,SUV,Gasoline,29000.0
+V0867,Toyota,RAV4,2024,SUV,Gasoline,30000.0
+V0868,Ford,F-250,2023,truck,Diesel,65000.0
+V0869,Tesla,Model S,2024,sedan,Electric,85000.0
+V0870,BMW,X7,2023,SUV,Gasoline,82000.0
+V0871,Lexus,RX,2023,SUV,Hybrid,53000.0
+V0872,Subaru,Forester,2024,SUV,Gasoline,31000.0
+V0873,Volkswagen,Atlas,2023,SUV,Gasoline,42000.0
+V0874,Kia,Sorento,2024,SUV,Hybrid,38000.0
+V0875,Jeep,Grand Cherokee,2023,SUV,Gasoline,46000.0
+V0876,Chevrolet,Silverado,2024,truck,Gasoline,50000.0
+V0877,Audi,Q7,2022,SUV,Gasoline,59000.0
+V0878,Hyundai,Palisade,2024,SUV,Gasoline,45000.0
+V0879,Nissan,Pathfinder,2023,SUV,Gasoline,37000.0
+V0880,Toyota,Corolla,2024,sedan,Gasoline,23000.0
+V0881,Ford,Explorer,2024,SUV,Gasoline,41000.0
+V0882,Honda,Pilot,2023,SUV,Gasoline,42000.0
+V0883,Tesla,Model X,2024,SUV,Electric,92000.0
+V0884,BMW,X3,2024,SUV,Gasoline,47000.0
+V0885,Mercedes,E-Class,2023,sedan,Gasoline,58000.0
+V0886,Lexus,NX,2024,SUV,Hybrid,44000.0
+V0887,Subaru,Impreza,2022,hatchback,Gasoline,22000.0
+V0888,Mazda,CX-30,2024,SUV,Gasoline,26000.0
+V0889,Kia,Sportage,2024,SUV,Gasoline,29000.0
+V0890,Chevrolet,Malibu,2024,sedan,Gasoline,26000.0
+V0891,Audi,A6,2023,sedan,Gasoline,56000.0
+V0892,Hyundai,Santa Fe,2024,SUV,Hybrid,37000.0
+V0893,Nissan,Titan,2022,truck,Gasoline,49000.0
+V0894,Toyota,Highlander,2024,SUV,Hybrid,42000.0
+V0895,Ford,Ranger,2023,truck,Gasoline,34000.0
+V0896,Honda,Ridgeline,2024,truck,Gasoline,40000.0
+V0897,Tesla,Cybertruck,2024,truck,Electric,80000.0
+V0898,BMW,i4,2024,sedan,Electric,55000.0
+V0899,Lexus,IS,2022,sedan,Gasoline,41000.0
+V0900,Mazda,MX-5,2023,coupe,Gasoline,29000.0
+V0901,Volkswagen,ID.4,2024,SUV,Electric,41000.0
+V0902,Kia,Niro,2023,SUV,Electric,36000.0
+V0903,Jeep,Compass,2024,SUV,Gasoline,28000.0
+V0904,Hyundai,Ioniq 5,2024,SUV,Electric,46000.0
+V0905,Nissan,Murano,2023,SUV,Gasoline,34000.0
+V0906,Toyota,Supra,2024,coupe,Gasoline,55000.0
+V0907,Ford,Bronco,2023,SUV,Gasoline,45000.0
+V0908,BMW,X1,2024,SUV,Gasoline,40000.0
+V0909,Mercedes,CLA,2023,coupe,Gasoline,41000.0
+V0910,Lexus,LS,2022,sedan,Gasoline,78000.0
+V0911,Mazda,CX-90,2024,SUV,Hybrid,51000.0
+V0912,Volkswagen,Golf,2023,hatchback,Gasoline,26000.0
+V0913,Jeep,Gladiator,2024,truck,Gasoline,49000.0
+V0914,Chevrolet,Silverado,2022,truck,Diesel,55000.0
+V0915,Audi,Q3,2024,SUV,Gasoline,38000.0
+V0916,Hyundai,Kona,2024,SUV,Gasoline,25000.0
+V0917,Nissan,Sentra,2022,sedan,Gasoline,21000.0
+V0918,Toyota,Sienna,2024,minivan,Hybrid,41000.0
+V0919,Ford,Expedition,2023,SUV,Gasoline,68000.0
+V0920,Honda,CR-V,2022,SUV,Gasoline,29000.0
+V0921,Tesla,Model Y,2023,SUV,Electric,51000.0
+V0922,BMW,5 Series,2024,sedan,Gasoline,56000.0
+V0923,Lexus,ES,2024,sedan,Hybrid,45000.0
+V0924,Subaru,Legacy,2022,sedan,Gasoline,25000.0
+V0925,Mazda,CX-5,2023,SUV,Gasoline,30000.0
+V0926,Volkswagen,Taos,2024,SUV,Gasoline,25000.0
+V0927,Kia,Soul,2022,hatchback,Gasoline,20000.0
+V0928,Jeep,Cherokee,2023,SUV,Gasoline,31000.0
+V0929,Chevrolet,Trailblazer,2024,SUV,Gasoline,24000.0
+V0930,Audi,A5,2022,coupe,Gasoline,45000.0
+V0931,Hyundai,Venue,2023,SUV,Gasoline,20000.0
+V0932,Nissan,Ariya,2024,SUV,Electric,46000.0
+V0933,Ford,F-150,2024,truck,Electric,60000.0
+V0934,Honda,Accord,2022,sedan,Gasoline,28000.0
+V0935,Tesla,Model S,2023,sedan,Electric,82000.0
+V0936,BMW,X5,2022,SUV,Diesel,65000.0
+V0937,Mercedes,S-Class,2024,sedan,Gasoline,115000.0
+V0938,Subaru,WRX,2024,sedan,Gasoline,33000.0
+V0939,Mazda,6,2021,sedan,Gasoline,27000.0
+V0940,Volkswagen,Tiguan,2024,SUV,Gasoline,30000.0
+V0941,Jeep,Grand Wagoneer,2024,SUV,Gasoline,95000.0
+V0942,Chevrolet,Colorado,2022,truck,Gasoline,31000.0
+V0943,Audi,Q8,2023,SUV,Gasoline,73000.0
+V0944,Hyundai,Sonata,2022,sedan,Hybrid,30000.0
+V0945,Nissan,Leaf,2024,hatchback,Electric,29000.0
+V0946,Ford,Bronco,2024,SUV,Gasoline,42000.0
+V0947,Honda,Civic,2021,sedan,Gasoline,23000.0
+V0948,Tesla,Model 3,2022,sedan,Electric,38000.0
+V0949,BMW,M3,2024,sedan,Gasoline,76000.0
+V0950,Mercedes,GLE,2023,SUV,Gasoline,62000.0
+V0951,Lexus,RX,2024,SUV,Hybrid,55000.0
+V0952,Subaru,Ascent,2022,SUV,Gasoline,39000.0
+V0953,Kia,Telluride,2022,SUV,Gasoline,44000.0
+V0954,Chevrolet,Traverse,2023,SUV,Gasoline,39000.0
+V0955,Audi,SQ5,2022,SUV,Gasoline,57000.0
+V0956,Nissan,Frontier,2023,truck,Gasoline,33000.0
+V0957,Toyota,Avalon,2022,sedan,Hybrid,39000.0
+V0958,Ford,Mustang Mach-E,2024,SUV,Electric,51000.0
+V0959,Tesla,Model X,2022,SUV,Electric,88000.0
+V0960,BMW,X4,2023,SUV,Gasoline,52000.0
+V0961,Mercedes,GLC,2022,SUV,Gasoline,46000.0
+V0962,Lexus,NX,2023,SUV,Hybrid,42000.0
+V0963,Subaru,Outback,2024,wagon,Gasoline,34000.0
+V0964,Volkswagen,Golf,2024,hatchback,Gasoline,45000.0
+V0965,Kia,Seltos,2023,SUV,Gasoline,25000.0
+V0966,Jeep,Renegade,2024,SUV,Gasoline,26000.0
+V0967,Chevrolet,Silverado,2023,truck,Gasoline,48000.0
+V0968,Hyundai,Kona,2022,SUV,Electric,35000.0
+V0969,Toyota,Corolla,2023,sedan,Gasoline,22000.0
+V0970,Ford,Edge,2022,SUV,Gasoline,34000.0
+V0971,Honda,Insight,2022,sedan,Hybrid,27000.0
+V0972,BMW,8 Series,2023,coupe,Gasoline,89000.0
+V0973,Subaru,Forester,2023,SUV,Gasoline,30000.0
+V0974,Mazda,MX-30,2023,SUV,Electric,34000.0
+V0975,Volkswagen,Atlas,2024,SUV,Gasoline,43000.0
+V0976,Kia,Niro,2024,SUV,PHEV,35000.0
+V0977,Jeep,Gladiator,2023,truck,Gasoline,47000.0
+V0978,Chevrolet,Malibu,2022,sedan,Gasoline,25000.0
+V0979,Audi,Q5,2024,SUV,Hybrid,52000.0
+V0980,Hyundai,Tucson,2023,SUV,Gasoline,28000.0
+V0981,Toyota,Sequoia,2024,SUV,Hybrid,79000.0
+V0982,Ford,Expedition,2024,SUV,Gasoline,70000.0
+V0983,Honda,Ridgeline,2023,truck,Gasoline,39000.0
+V0984,BMW,X6,2023,SUV,Gasoline,70000.0
+V0985,Mercedes,GLE,2024,SUV,Hybrid,72000.0
+V0986,Lexus,TX,2024,SUV,Gasoline,55000.0
+V0987,Subaru,WRX,2022,sedan,Gasoline,31000.0
+V0988,Mazda,CX-90,2024,SUV,Gasoline,49000.0
+V0989,Volkswagen,ID.4,2023,SUV,Electric,40000.0
+V0990,Jeep,Wrangler,2022,SUV,Gasoline,42000.0
+V0991,Audi,A4,2024,sedan,Gasoline,42000.0
+V0992,Hyundai,Palisade,2023,SUV,Gasoline,44000.0
+V0993,Toyota,Tacoma,2024,truck,Gasoline,40000.0
+V0994,Ford,F-150,2023,truck,Gasoline,48000.0
+V0995,BMW,X3,2023,SUV,Gasoline,46000.0
+V0996,Mercedes,GLC,2024,SUV,Gasoline,50000.0
+V0997,Lexus,NX,2024,SUV,Gasoline,43000.0
+V0998,Subaru,Crosstrek,2023,SUV,Gasoline,26000.0
+V0999,Mazda,3,2024,sedan,Gasoline,25000.0
+V1000,Volkswagen,Tiguan,2023,SUV,Gasoline,28000.0
+V1001,Kia,Telluride,2024,SUV,Gasoline,49000.0
+V1002,Jeep,Grand Cherokee,2022,SUV,Gasoline,44000.0
+V1003,Audi,Q7,2024,SUV,Gasoline,63000.0
+V1004,Hyundai,Santa Fe,2023,SUV,Gasoline,34000.0
+V1005,Nissan,Rogue,2024,SUV,Gasoline,31000.0
+V1006,Ford,Explorer,2024,SUV,Hybrid,50000.0
+V1007,Honda,Civic,2024,hatchback,Gasoline,26000.0
+V1008,BMW,5 Series,2023,sedan,Gasoline,55000.0
+V1009,Mercedes,C-Class,2024,sedan,Gasoline,47000.0
+V1010,Lexus,RX,2024,SUV,Gasoline,52000.0
+V1011,Subaru,Outback,2022,wagon,Gasoline,32000.0
+V1012,Mazda,CX-5,2024,SUV,Gasoline,31000.0
+V1013,Volkswagen,Jetta,2022,sedan,Gasoline,22000.0
+V1014,Kia,Sportage,2024,SUV,Hybrid,33000.0
+V1015,Chevrolet,Equinox,2024,SUV,Gasoline,29000.0
+V1016,Audi,A3,2024,sedan,Gasoline,37000.0
+V1017,Hyundai,Elantra,2023,sedan,Gasoline,22000.0
+V1018,Nissan,Frontier,2024,truck,Gasoline,35000.0
+V1019,Toyota,Highlander,2023,SUV,Gasoline,39000.0
+V1020,Ford,F-250,2024,truck,Diesel,68000.0
+V1021,Honda,Odyssey,2024,minivan,Gasoline,40000.0
+V1022,BMW,X7,2024,SUV,Gasoline,85000.0
+V1023,Lexus,ES,2023,sedan,Gasoline,42000.0
+V1024,Subaru,Forester,2024,SUV,Gasoline,32000.0
+V1025,Mazda,CX-30,2024,SUV,Gasoline,27000.0
+V1026,Volkswagen,Atlas,2023,SUV,Gasoline,41000.0
+V1027,Kia,Sorento,2024,SUV,Gasoline,35000.0
+V1028,Jeep,Renegade,2023,SUV,Gasoline,26000.0
+V1029,Chevrolet,Blazer,2024,SUV,Gasoline,38000.0
+V1030,Hyundai,Kona,2024,SUV,Electric,37000.0
+V1031,Nissan,Altima,2024,sedan,Gasoline,26000.0
+V1032,Toyota,Sienna,2023,minivan,Hybrid,40000.0
+V1033,Ford,Maverick,2024,truck,Hybrid,27000.0
+V1034,Lexus,IS,2024,sedan,Gasoline,42000.0
+V1035,Subaru,Impreza,2024,hatchback,Gasoline,24000.0
+V1036,Mazda,MX-5,2024,coupe,Gasoline,30000.0
+V1037,Volkswagen,ID.4,2024,SUV,Electric,42000.0
+V1038,Kia,Niro,2024,SUV,Electric,38000.0
+V1039,Jeep,Gladiator,2024,truck,Gasoline,50000.0
+V1040,Chevrolet,Silverado,2024,truck,Gasoline,52000.0
+V1041,Hyundai,Ioniq 5,2023,SUV,Electric,45000.0
+V1042,Nissan,Ariya,2024,SUV,Electric,47000.0
+V1043,Toyota,GR86,2024,coupe,Gasoline,32000.0
+V1044,Ford,Lightning,2024,truck,Electric,70000.0
+V1045,Tesla,Semi,2024,truck,Electric,165000.0
+V1046,Mercedes,GT,2024,coupe,Gasoline,95000.0
+V1047,Lexus,LX,2024,SUV,Gasoline,95000.0
+V1048,Mazda,CX-90,2024,SUV,PHEV,52000.0
+V1049,Kia,EV6,2024,SUV,Electric,51000.0
+V1050,Jeep,Grand Wagoneer,2024,SUV,Gasoline,98000.0
+V1051,Chevrolet,Corvette,2024,coupe,Gasoline,80000.0
+V1052,Audi,RS6,2024,wagon,Gasoline,130000.0
+V1053,Nissan,Z,2024,coupe,Gasoline,45000.0
+V1054,Toyota,Land Cruiser,2024,SUV,Hybrid,60000.0
+V1055,BMW,i7,2024,sedan,Electric,108000.0
+V1056,Mercedes,EQS,2024,SUV,Electric,110000.0
+V1057,Lexus,GX,2024,SUV,Gasoline,68000.0
+V1058,Subaru,WRX,2024,sedan,Gasoline,35000.0
+V1059,Mazda,CX-30,2024,SUV,Gasoline,28000.0
+V1060,Volkswagen,ID. Buzz,2024,Van,Electric,62000.0
+V1061,Kia,EV9,2024,SUV,Electric,68000.0
+V1062,Jeep,Gladiator,2024,truck,Gasoline,52000.0
+V1063,Chevrolet,Tahoe,2024,SUV,Gasoline,65000.0
+V1064,Hyundai,Sonata,2024,sedan,Gasoline,31000.0
+V1065,Tesla,Model 3,2025,sedan,Electric,43000.0
+V1066,BMW,X5,2024,SUV,Gasoline,70000.0
+V1067,Lexus,NX,2024,SUV,Hybrid,46000.0
+V1068,Subaru,Forester,2024,SUV,Gasoline,33000.0
+V1069,Mazda,CX-90,2024,SUV,Gasoline,50000.0
+V1070,Volkswagen,Atlas,2024,SUV,Gasoline,45000.0
+V1071,Kia,Telluride,2024,SUV,Gasoline,51000.0
+V1072,Jeep,Wrangler,2024,SUV,Gasoline,48000.0
+V1073,Toyota,Camry,2025,sedan,Hybrid,32000.0
+V1074,Tesla,Model Y,2025,SUV,Electric,52000.0
+V1075,Lexus,RX,2024,SUV,Hybrid,56000.0
+V1076,Subaru,Outback,2024,wagon,Gasoline,35000.0
+V1077,Mazda,CX-5,2024,SUV,Gasoline,32000.0
+V1078,Volkswagen,Tiguan,2024,SUV,Gasoline,31000.0
+V1079,Kia,Sorento,2024,SUV,Hybrid,40000.0
+V1080,Jeep,Grand Cherokee,2024,SUV,Gasoline,48000.0
+V1081,Chevrolet,Colorado,2024,truck,Gasoline,35000.0
+V1082,Toyota,RAV4,2024,SUV,Gasoline,31000.0
+V1083,Ford,F-150,2024,truck,Gasoline,52000.0
+V1084,Tesla,Model S,2025,sedan,Electric,88000.0
+V1085,BMW,3 Series,2024,sedan,Gasoline,45000.0
+V1086,Lexus,ES,2024,sedan,Gasoline,44000.0
+V1087,Subaru,Crosstrek,2024,SUV,Gasoline,28000.0
+V1088,Mazda,3,2024,sedan,Gasoline,26000.0
+V1089,Volkswagen,Jetta,2024,sedan,Gasoline,24000.0
+V1090,Kia,Sportage,2024,SUV,Gasoline,30000.0
+V1091,Jeep,Compass,2024,SUV,Gasoline,29000.0
+V1092,Chevrolet,Equinox,2024,SUV,Gasoline,30000.0
+V1093,Audi,Q3,2024,SUV,Gasoline,39000.0
+V1094,Hyundai,Elantra,2024,sedan,Gasoline,24000.0
+V1095,Nissan,Sentra,2024,sedan,Gasoline,22000.0
+V1096,Ford,Escape,2024,SUV,Hybrid,32000.0
+V1097,Tesla,Model X,2025,SUV,Electric,98000.0
+V1098,BMW,X7,2024,SUV,Gasoline,86000.0
+V1099,Lexus,GX,2024,SUV,Gasoline,67000.0
+V1100,Subaru,Ascent,2024,SUV,Gasoline,40000.0
+V1101,Volkswagen,Atlas,2024,SUV,Gasoline,44000.0
+V1102,Kia,Forte,2024,sedan,Gasoline,22000.0
+V1103,Jeep,Gladiator,2024,truck,Gasoline,51000.0
+V1104,Chevrolet,Traverse,2024,SUV,Gasoline,40000.0
+V1105,Audi,A6,2024,sedan,Gasoline,58000.0
+V1106,Hyundai,Ioniq 5,2024,SUV,Electric,47000.0
+V1107,Toyota,Highlander,2024,SUV,Hybrid,44000.0
+V1108,Tesla,Cybertruck,2025,truck,Electric,82000.0
+V1109,BMW,i4,2024,sedan,Electric,56000.0
+V1110,Mercedes,GLA,2024,SUV,Gasoline,42000.0
+V1111,Lexus,IS,2024,sedan,Gasoline,43000.0
+V1112,Subaru,Impreza,2024,hatchback,Gasoline,25000.0
+V1113,Mazda,MX-5,2024,coupe,Gasoline,31000.0
+V1114,Volkswagen,ID.4,2024,SUV,Electric,43000.0
+V1115,Kia,Niro,2024,SUV,Electric,39000.0
+V1116,Jeep,Cherokee,2024,SUV,Gasoline,32000.0
+V1117,Chevrolet,Blazer,2024,SUV,Gasoline,39000.0
+V1118,Audi,Q5,2024,SUV,Hybrid,53000.0
+V1119,Hyundai,Kona,2024,SUV,Gasoline,26000.0
+V1120,Nissan,Frontier,2024,truck,Gasoline,36000.0
+V1121,Toyota,Tacoma,2024,truck,Hybrid,46000.0
+V1122,Ford,F-250,2024,truck,Diesel,69000.0
+V1123,Honda,Passport,2024,SUV,Gasoline,44000.0
+V1124,Tesla,Model 3,2025,sedan,Electric,44000.0
+V1125,BMW,X1,2024,SUV,Gasoline,41000.0
+V1126,Mercedes,CLA,2024,coupe,Gasoline,43000.0
+V1127,Lexus,NX,2024,SUV,Hybrid,47000.0
+V1128,Subaru,Solterra,2024,SUV,Electric,48000.0
+V1129,Mazda,CX-90,2024,SUV,Hybrid,53000.0
+V1130,Volkswagen,ID. Buzz,2024,Van,Electric,63000.0
+V1131,Jeep,Grand Wagoneer,2024,SUV,Gasoline,99000.0
+V1132,Audi,e-tron GT,2024,sedan,Electric,106000.0
+V1133,Ford,Mustang Mach-E,2024,SUV,Electric,52000.0
+V1134,Tesla,Model Y,2025,SUV,Electric,53000.0
+V1135,BMW,M3,2024,sedan,Gasoline,77000.0
+V1136,Mercedes,GLB,2024,SUV,Gasoline,42000.0
+V1137,Lexus,LS,2024,sedan,Gasoline,79000.0
+V1138,Subaru,Ascent,2024,SUV,Gasoline,41000.0
+V1139,Mazda,CX-70,2024,SUV,Hybrid,48000.0
+V1140,Volkswagen,Golf R,2024,hatchback,Gasoline,47000.0
+V1141,Kia,EV9,2024,SUV,Electric,69000.0
+V1142,Jeep,Gladiator,2024,truck,Gasoline,53000.0
+V1143,Chevrolet,Tahoe,2024,SUV,Gasoline,66000.0
+V1144,Audi,RS7,2024,sedan,Gasoline,131000.0
+V1145,Nissan,Z,2024,coupe,Gasoline,46000.0
+V1146,Mercedes,EQS,2024,sedan,Electric,106000.0
+V1147,Lexus,GX,2024,SUV,Gasoline,69000.0
+V1148,Subaru,WRX,2024,sedan,Gasoline,36000.0
+V1149,Mazda,MX-5,2024,coupe,Gasoline,32000.0
+V1150,Volkswagen,ID.4,2024,SUV,Electric,44000.0
+V1151,Kia,Sportage,2024,SUV,Hybrid,34000.0
+V1152,Jeep,Wrangler,2024,SUV,Hybrid,56000.0
+V1153,Chevrolet,Silverado,2024,truck,Gasoline,53000.0
+V1154,Ford,F-150,2024,truck,Gasoline,53000.0
+V1155,Honda,Civic,2024,sedan,Gasoline,27000.0
+V1156,Tesla,Model S,2025,sedan,Electric,89000.0
+V1157,BMW,X5,2024,SUV,Gasoline,71000.0
+V1158,Mercedes,GLE,2024,SUV,Gasoline,71000.0
+V1159,Lexus,RX,2024,SUV,Hybrid,57000.0
+V1160,Subaru,Outback,2024,wagon,Gasoline,36000.0
+V1161,Mazda,CX-5,2024,SUV,Gasoline,33000.0
+V1162,Volkswagen,Atlas,2024,SUV,Gasoline,46000.0
+V1163,Kia,Telluride,2024,SUV,Gasoline,52000.0
+V1164,Jeep,Grand Cherokee,2024,SUV,Gasoline,49000.0
+V1165,Chevrolet,Colorado,2024,truck,Gasoline,36000.0
+V1166,Tesla,Model 3,2025,sedan,Electric,45000.0
+V1167,BMW,3 Series,2024,sedan,Gasoline,46000.0
+V1168,Mercedes,C-Class,2024,sedan,Gasoline,49000.0
+V1169,Lexus,ES,2024,sedan,Gasoline,45000.0
+V1170,Subaru,Crosstrek,2024,SUV,Gasoline,29000.0
+V1171,Mazda,3,2024,sedan,Gasoline,27000.0
+V1172,Volkswagen,Jetta,2024,sedan,Gasoline,25000.0
+V1173,Kia,Sorento,2024,SUV,Hybrid,39000.0
+V1174,Jeep,Compass,2024,SUV,Gasoline,30000.0
+V1175,Audi,Q3,2024,SUV,Gasoline,40000.0
+V1176,Ford,F-150,2024,truck,Electric,61000.0
+V1177,Tesla,Model X,2025,SUV,Electric,99000.0
+V1178,BMW,X7,2024,SUV,Gasoline,87000.0
+V1179,Mercedes,EQE,2024,sedan,Electric,79000.0
