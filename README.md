@@ -1,6 +1,7 @@
 # Vehicle Sales & Inventory Analysis
 
-<img width="1005" height="603" alt="dashboard" src="https://github.com/user-attachments/assets/17cb4437-0efc-498b-bca2-4c4f5a44cb0d" />
+
+<img width="1005" height="602" alt="dashboard" src="https://github.com/user-attachments/assets/d94e2867-2491-4e89-82d6-13f4e9c2c9b9" />
 
 
 ## Objectives
